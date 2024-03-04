@@ -1,5 +1,14 @@
 # Introdução
 
+A Constituição Federal de 1988 estabelece a educação como um direito fundamental de todo cidadão brasileiro desde sua promulgação. Segundo o artigo 205 da Carta Magna, a educação visa garantir o pleno exercício da cidadania e o desenvolvimento pessoal do indivíduo. Nesse contexto, a alfabetização desempenha um papel central no cenário educacional, capacitando o indivíduo a compreender os processos e o mundo ao seu redor, o que o torna mais engajado socialmente e consciente de seus direitos e deveres.
+
+A nota do IDESP (Índice de Desenvolvimento da Educação do Estado de São Paulo) de Alfabetização é um indicador crucial do desempenho das políticas educacionais no estado de São Paulo e reflete o compromisso das autoridades educacionais com a promoção da alfabetização, isso porque ela oferece uma melhor compreensão sobre os desafios e os progressos na área da educação, demonstrando o empenho dedicado para garantir o acesso pleno à educação e o efetivo papel do cidadão na sociedade.
+
+Além disso, o texto constitucional, em seu artigo 206, estipula um padrão de qualidade educacional e condições de igualdade para a permanência do cidadão na escola. Nesse sentido, a infraestrutura escolar desempenha um papel crucial, influenciando diretamente na qualidade do ensino oferecido e no ambiente propício ao aprendizado. Uma infraestrutura adequada não só proporciona condições para o desenvolvimento educacional, mas também contribui para promover a igualdade de oportunidades e efetivar o direito à educação de qualidade para todos os cidadãos.
+
+Considerando essas observações, esse trabalho tem como objetivo realizar comparações entre as notas do IDESP de alfabetização e a infraestrutura das escolas com foco em fornecer uma contextualização da real influência da infraestrutura educacional no desempenho do aluno na nota do IDESP de Alfabetização, destacando, assim, para instituições de ensino e pessoas ligadas a área de infraestrutura de ambientes educacionais, a relevância das escolhas realizadas nesse âmbito para o desempenho dos alunos.
+
+
 Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.
 
 ## Problema
