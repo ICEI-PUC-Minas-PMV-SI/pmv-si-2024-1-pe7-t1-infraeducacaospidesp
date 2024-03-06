@@ -25,10 +25,21 @@ Descreva ainda o contexto em que essa aplicação será usada, se houver: empres
 ## Questão de Pesquisa
 
 A alfabetização é crucial para o desenvolvimento humano, sendo a base do aprendizado em diversas áreas. No Brasil, o Índice de Desenvolvimento da Educação do Estado de São Paulo (IDESP) é um indicador-chave para avaliar a qualidade educacional, especialmente o desempenho dos alunos na alfabetização.
+<<<<<<< HEAD
+
+Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho na alfabetização, medido pelo IDESP. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
+
+# **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
 
 Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho na alfabetização, medido pelo IDESP. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
 
 **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
+
+> **Links Úteis**:
+>
+> - [Questão de pesquisa](https://www.enago.com.br/academy/how-to-develop-good-research-question-types-examples/)
+> - [Problema de pesquisa](https://blog.even3.com.br/problema-de-pesquisa/)
+>   > > > > > > cf1b437 (adicona questão de pesquisa)
 
 ## Objetivos preliminares
 
@@ -94,6 +105,7 @@ Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analí
 > - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
 
 # Referências
+
 Centro de Referências em Educação Integral: Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
 
 Governo do Estado de São Paulo: Dados Educacionais - Instalações físicas por unidade escolar. Disponível em: <https://dados.educacao.sp.gov.br/dataset/instala%C3%A7%C3%B5es-f%C3%ADsicas-por-unidade-escolar>. Acesso em: 06 de mar. de 2024.
@@ -105,7 +117,6 @@ Governo do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educaçã
 NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: [06 de mar. de 2024].
 
 Secretaria da Educação do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <https://www.educacao.sp.gov.br/idesp>. Acesso em: 06 de mar. de 2024.
-
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
 
