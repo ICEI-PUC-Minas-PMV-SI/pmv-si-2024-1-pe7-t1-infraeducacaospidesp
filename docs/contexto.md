@@ -30,11 +30,6 @@ Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, p
 
 **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
 
-> **Links Úteis**:
->
-> - [Questão de pesquisa](https://www.enago.com.br/academy/how-to-develop-good-research-question-types-examples/)
-> - [Problema de pesquisa](https://blog.even3.com.br/problema-de-pesquisa/)
-
 ## Objetivos preliminares
 
 Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima.
