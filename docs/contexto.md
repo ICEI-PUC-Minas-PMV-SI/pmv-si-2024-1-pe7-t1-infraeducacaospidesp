@@ -100,7 +100,7 @@ Governo do Estado de São Paulo: Dados Educacionais - Instalações físicas por
 
 Governo do Estado de São Paulo: Dados Educacionais - Portal da Transparência. Disponível em: <https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia>. Acesso em: 06 de mar. de 2024.
 
-IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
+Governo do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
 
 NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: [06 de mar. de 2024].
 
