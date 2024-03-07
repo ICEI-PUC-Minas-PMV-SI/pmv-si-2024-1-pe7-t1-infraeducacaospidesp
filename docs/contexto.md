@@ -44,7 +44,13 @@ Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos po
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com o conjunto de dados escolhido. Indique as razões pelas quais você escolheu seus objetivos específicos, as razões para aprofundar o estudo do problema identificado e qual o impacto que tal problema provoca na sociedade. Lembre-se de quantificar (com dados reais e suas respectivas fontes) este impacto.
+A escolha desse conjunto de dados e objetivos específicos transcorre pela necessidade de compreender melhor como a infraestrutura das escolas públicas, impacta diretamente o desempenho de seus alunos, alinhando-se com os objetivos de desenvolvimento sustentável estabelecidos pela ONU, em particular, o ODS4, que visa garantir uma educação de qualidade, inclusiva e equitativa para todos.
+
+O projeto tem como foco principal o levantamento e a analise de insumos da relação entre a infraestrutura escolar e o desempenho dos alunos. Fornecendo insights valiosos para aprimorar políticas públicas e práticas educacionais, contribuindo para a formulação de estratégias eficazes de melhoria da qualidade da educação.
+
+O público-alvo dessa obra inclui gestores educacionais, formuladores de políticas públicas, pesquisadores da área da educação e profissionais envolvidos na gestão e manutenção da infraestrutura escolar, bem como a sociedade em geral interessada no aprimoramento do sistema educacional.
+
+Este trabalho está baseado em dados do IDESP (Índice de Desenvolvimento da Educação do Estado de São Paulo), o qual fornece dados confiáveis e informações essenciais para embasar a análise da relação entre infraestrutura escolar e desempenho dos alunos, bem como para justificar a importância e relevância do tema abordado.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
