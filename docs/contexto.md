@@ -44,7 +44,7 @@ Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos po
 
 ## Justificativa
 
-A escolha desse conjunto de dados e objetivos específicos transcorre pela necessidade de compreender melhor como a infraestrutura das escolas públicas, impacta diretamente o desempenho de seus alunos, alinhando-se com os objetivos de desenvolvimento sustentável estabelecidos pela ONU, em particular, o ODS4, que visa garantir uma educação de qualidade, inclusiva e equitativa para todos.
+A escolha desse conjunto de dados e objetivos específicos transcorre pela necessidade de compreender melhor como a infraestrutura das escolas públicas, impacta diretamente no desempenho de seus alunos, alinhando-se com os objetivos de desenvolvimento sustentável estabelecidos pela ONU, em particular, o ODS4, que visa garantir uma educação de qualidade, inclusiva e equitativa para todos.
 
 O projeto tem como foco principal o levantamento e a analise de insumos da relação entre a infraestrutura escolar e o desempenho dos alunos. Fornecendo insights valiosos para aprimorar políticas públicas e práticas educacionais, contribuindo para a formulação de estratégias eficazes de melhoria da qualidade da educação.
 
