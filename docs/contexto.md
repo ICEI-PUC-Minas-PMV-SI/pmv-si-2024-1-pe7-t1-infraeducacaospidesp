@@ -89,6 +89,18 @@ Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analí
 > - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
 
 # Referências
+Centro de Referências em Educação Integral: Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
+
+Governo do Estado de São Paulo: Dados Educacionais - Instalações físicas por unidade escolar. Disponível em: <https://dados.educacao.sp.gov.br/dataset/instala%C3%A7%C3%B5es-f%C3%ADsicas-por-unidade-escolar>. Acesso em: 06 de mar. de 2024.
+
+Governo do Estado de São Paulo: Dados Educacionais - Portal da Transparência. Disponível em: <https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia>. Acesso em: 06 de mar. de 2024.
+
+IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
+
+NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: [06 de mar. de 2024].
+
+Secretaria da Educação do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <https://www.educacao.sp.gov.br/idesp>. Acesso em: 06 de mar. de 2024.
+
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
 
