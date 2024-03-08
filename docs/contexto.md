@@ -24,22 +24,9 @@ Descreva ainda o contexto em que essa aplicação será usada, se houver: empres
 
 ## Questão de Pesquisa
 
-A alfabetização é crucial para o desenvolvimento humano, sendo a base do aprendizado em diversas áreas. No Brasil, o Índice de Desenvolvimento da Educação do Estado de São Paulo (IDESP) é um indicador-chave para avaliar a qualidade educacional, especialmente o desempenho dos alunos na alfabetização.
-<<<<<<< HEAD
-
-Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho na alfabetização, medido pelo IDESP. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
-
-# **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
-
 Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho na alfabetização, medido pelo IDESP. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
 
 **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
-
-> **Links Úteis**:
->
-> - [Questão de pesquisa](https://www.enago.com.br/academy/how-to-develop-good-research-question-types-examples/)
-> - [Problema de pesquisa](https://blog.even3.com.br/problema-de-pesquisa/)
->   > > > > > > cf1b437 (adicona questão de pesquisa)
 
 ## Objetivos preliminares
 
@@ -98,7 +85,7 @@ Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. L
 
 # Canvas analítico
 
-Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização das ideias e apresentar o modelo de negócio.
+![Canvas Analítico](./img/canvas_analitico.png)
 
 > **Links Úteis**:
 >
