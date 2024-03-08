@@ -8,38 +8,37 @@ Além disso, o texto constitucional, em seu artigo 206, estipula um padrão de q
 
 Considerando essas observações, esse trabalho tem como objetivo realizar comparações entre as notas do IDESP de alfabetização e a infraestrutura das escolas com foco em fornecer uma contextualização da real influência da infraestrutura educacional no desempenho do aluno na nota do IDESP de Alfabetização, destacando, assim, para instituições de ensino e pessoas ligadas a área de infraestrutura de ambientes educacionais, a relevância das escolhas realizadas nesse âmbito para o desempenho dos alunos.
 
-
 Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.
 
 ## Problema
 
 Nesta seção, você deve apresentar o problema que a sua investigação/experimentação busca resolver. Por exemplo, caso o _dataset_ selecionado, seja um _dataset_ que contenha uma série temporal com o preço de diversas ações da bolsa de valores, o problema pode estar relacionado a dificuldade em saber a melhor hora (hora certa??) de comprar ou então, de executar a venda de uma determinada ação.
 
-Descreva ainda o contexto em que essa aplicação será usada, se houver: empresa parceira, tecnologias etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Descreva ainda o contexto em que essa aplicação será usada, se houver: empresa parceira, tecnologias etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
 
 > **Links Úteis**:
+>
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
-## Questão de pesquisa
+## Questão de Pesquisa
 
-A questão de pesquisa é a base de todo o trabalho que será desenvolvido. É ela que motiva a realização da pesquisa e deverá ser adequada ao problema identificado. Ao término de sua pesquisa/experimentação, o objetivo é que seja encontrada a resposta da questão de pesquisa previamente definida.
+Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho na alfabetização, medido pelo IDESP. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
 
-> **Links Úteis**:
-> - [Questão de pesquisa](https://www.enago.com.br/academy/how-to-develop-good-research-question-types-examples/)
-> - [Problema de pesquisa](https://blog.even3.com.br/problema-de-pesquisa/)
+**Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
 
 ## Objetivos preliminares
 
-Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima. 
+Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima.
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
 
 Por exemplo: um objetivo específico pode estar relacionado a predizer a tendência de alta, estabilidade ou queda de uma determinada ação em uma determinada janela do tempo ou então, predizer o valor exato de uma determinada ação.
 Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos podem evoluir também, portanto, não se esqueça de fazer as atualizações necessárias.
- 
+
 > **Links Úteis**:
+>
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
@@ -53,6 +52,7 @@ O público-alvo dessa obra inclui gestores educacionais, formuladores de políti
 Este trabalho está baseado em dados do IDESP (Índice de Desenvolvimento da Educação do Estado de São Paulo), o qual fornece dados confiáveis e informações essenciais para embasar a análise da relação entre infraestrutura escolar e desempenho dos alunos, bem como para justificar a importância e relevância do tema abordado.
 
 > **Links Úteis**:
+>
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
@@ -62,6 +62,7 @@ Descreva quem serão as pessoas que poderão se beneficiar com a sua investigaç
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
+>
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
@@ -69,9 +70,10 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Estado da arte
 
-Nesta seção, deverão ser descritas outras abordagens identificadas na literatura que foram utilizadas para resolver problemas similares ao problema em questão. Para isso, faça uma pesquisa detalhada e identifique, no mínimo, 3 trabalhos que tenham utilizado dados em contexto similares e então, detalhe: detalhe e contextualize o problema, descreva o _dataset_ utilizado, detalhe quais abordagens/algoritmos foram utilizados (e seus parâmetros), identifique as métricas de avaliação empregadas e fale sobre os resultados obtidos. 
+Nesta seção, deverão ser descritas outras abordagens identificadas na literatura que foram utilizadas para resolver problemas similares ao problema em questão. Para isso, faça uma pesquisa detalhada e identifique, no mínimo, 3 trabalhos que tenham utilizado dados em contexto similares e então, detalhe: detalhe e contextualize o problema, descreva o _dataset_ utilizado, detalhe quais abordagens/algoritmos foram utilizados (e seus parâmetros), identifique as métricas de avaliação empregadas e fale sobre os resultados obtidos.
 
 > **Links Úteis**:
+>
 > - [Google Scholar](https://scholar.google.com/)
 > - [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
 > - [Science Direct](https://www.sciencedirect.com/)
@@ -83,9 +85,10 @@ Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. L
 
 # Canvas analítico
 
-Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização das ideias e apresentar o modelo de negócio.
+![Canvas Analítico](./img/canvas_analitico.png)
 
 > **Links Úteis**:
+>
 > - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
 
 # Referências
@@ -102,7 +105,20 @@ NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasi
 Secretaria da Educação do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <https://www.educacao.sp.gov.br/idesp>. Acesso em: 06 de mar. de 2024.
 
 
+Centro de Referências em Educação Integral: Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
+
+Governo do Estado de São Paulo: Dados Educacionais - Instalações físicas por unidade escolar. Disponível em: <https://dados.educacao.sp.gov.br/dataset/instala%C3%A7%C3%B5es-f%C3%ADsicas-por-unidade-escolar>. Acesso em: 06 de mar. de 2024.
+
+Governo do Estado de São Paulo: Dados Educacionais - Portal da Transparência. Disponível em: <https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia>. Acesso em: 06 de mar. de 2024.
+
+Governo do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
+
+NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: [06 de mar. de 2024].
+
+Secretaria da Educação do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <https://www.educacao.sp.gov.br/idesp>. Acesso em: 06 de mar. de 2024.
+
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
 
 > **Links Úteis**:
+>
 > - [Padrão ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
