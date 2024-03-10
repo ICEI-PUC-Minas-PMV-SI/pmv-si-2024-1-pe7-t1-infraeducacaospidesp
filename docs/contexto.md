@@ -133,26 +133,26 @@ IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valo
 ![Canvas Analítico](./img/canvas_analitico.png)
 
 # Referências
-Centro de Referências em Educação Integral: Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
+CENTRO DE REFERÊNCIAS EM EDUCAÇÃO INTEGRAL. Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
 
-Governo do Estado de São Paulo: Dados Educacionais - Instalações físicas por unidade escolar. Disponível em: <https://dados.educacao.sp.gov.br/dataset/instala%C3%A7%C3%B5es-f%C3%ADsicas-por-unidade-escolar>. Acesso em: 06 de mar. de 2024.
+CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL de 1988. Brasília, DF: Presidência da República. Disponível em: <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>. Acesso em: 08 de mar. de 2024.
 
-Governo do Estado de São Paulo: Dados Educacionais - Portal da Transparência. Disponível em: <https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia>. Acesso em: 06 de mar. de 2024.
+GIL-FLORES, J.; RODRÍGUEZ-SANTERO, J.; TORRES-GORDILLO, J. J. Factors that explain the use of ICT in secondary-education classrooms: The role of teacher characteristics and school infrastructure. Computers in Human Behavior, v. 68, p. 441-449, 2017. ISSN 0747-5632. Disponível em: <https://doi.org/10.1016/j.chb.2016.11.057>. Acesso em: 10 de mar. de 2024.
 
-Governo do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
+GOVERNO DO ESTADO DE SÃO PAULO. Dados Educacionais - Instalações físicas por unidade escolar. Disponível em: <https://dados.educacao.sp.gov.br/dataset/instala%C3%A7%C3%B5es-f%C3%ADsicas-por-unidade-escolar>. Acesso em: 06 de mar. de 2024.
 
-NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: [06 de mar. de 2024].
+GOVERNO DO ESTADO DE SÃO PAULO. Dados Educacionais - Portal da Transparência. Disponível em: <https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia>. Acesso em: 06 de mar. de 2024.
 
-Secretaria da Educação do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <https://www.educacao.sp.gov.br/idesp>. Acesso em: 06 de mar. de 2024.
+GOVERNO DO ESTADO DE SÃO PAULO. IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
 
-Centro de Referências em Educação Integral: Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
+HOTA, Swarna Prava. Education infrastructure, expenditure, enrollment & economic development in Odisha, India. International Journal of Educational Development, v. 103, p. 102903, 2023. ISSN 0738-0593. Disponível em: <https://doi.org/10.1016/j.ijedudev.2023.102903>. Acesso em: 10 de mar. de 2024.
 
-Governo do Estado de São Paulo: Dados Educacionais - Instalações físicas por unidade escolar. Disponível em: <https://dados.educacao.sp.gov.br/dataset/instala%C3%A7%C3%B5es-f%C3%ADsicas-por-unidade-escolar>. Acesso em: 06 de mar. de 2024.
+NAÇÕES UNIDAS. ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: 06 de mar. de 2024.
 
-Governo do Estado de São Paulo: Dados Educacionais - Portal da Transparência. Disponível em: <https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia>. Acesso em: 06 de mar. de 2024.
+RAMOS, Thiago Graca; MACHADO, Jean Cristian Ferreira; CORDEIRO, Bruna Principe Vieira. Primary Education Evaluation in Brazil Using Big Data and Cluster Analysis. Procedia Computer Science, v. 55, p. 1031-1039, 2015. ISSN 1877-0509. Disponível em: <https://doi.org/10.1016/j.procs.2015.07.061>. Acesso em: 10 mar. 2024.
 
-Governo do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
+SÁ, J. dos S.; WERLE, F. O. C.. Infraestrutura escolar e espaço físico em educação: o estado da arte. Cadernos De Pesquisa, v. 47, n. 164, p. 386–413, 2017. Disponível em: <https://doi.org/10.1590/198053143735>. Acesso em: 10 de mar. de 2024.
 
-NAÇÕES UNIDAS: ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: [06 de mar. de 2024].
+VASCONCELOS, Joyciane Coelho et al. Infraestrutura escolar e investimentos públicos em Educação no Brasil: a importância para o desempenho educacional. Ensaio: aval. pol. públ. educ., Rio de Janeiro, v. 29, n. 113, p. 874-898, out. 2021. Disponível em: <http://educa.fcc.org.br/scielo.php?script=sci_arttext&pid=S0104-40362021000400874&lng=pt&nrm=iso>. Acesso em: 10 mar. 2024.
 
-Secretaria da Educação do Estado de São Paulo: IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <https://www.educacao.sp.gov.br/idesp>. Acesso em: 06 de mar. de 2024.
+
