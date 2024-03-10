@@ -28,16 +28,16 @@ Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, p
 
 ## Objetivos preliminares
 
-Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima.
+### Objetivo Geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Experimentar modelos de aprendizado de máquina adequados para apontar a influência da infraestrutura escolar no desempenho dos alunos de alfabetização, conforme avaliação do IDESP de 2023.
 
-Por exemplo: um objetivo específico pode estar relacionado a predizer a tendência de alta, estabilidade ou queda de uma determinada ação em uma determinada janela do tempo ou então, predizer o valor exato de uma determinada ação.
-Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos podem evoluir também, portanto, não se esqueça de fazer as atualizações necessárias.
+### Objetivos Específicos
 
-> **Links Úteis**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Verificar as notas Alfabetização do IDESP ao longo de 2023 de acordo com as instituições de ensino;
+- Verificar a infraestrutura das escolas de São Paulo no período em que foram aplicadas as avaliações do IDESP de 2023;
+- Identificar os modelos existentes de aprendizado de máquina que mais se aproximam do objetivo de entendimento da influência da infraestrutura escolar nas notas de alunos;
+- Comparar, por meio de modelo de aprendizado de máquina selecionado, as variações das notas do IDESP conforme a variação da infraestrutura escolar.
 
 ## Justificativa
 
