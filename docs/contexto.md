@@ -57,11 +57,11 @@ Este trabalho está baseado em dados do IDESP (Índice de Desenvolvimento da Edu
 
 Foi estabelecido como público-alvo os seguintes indivíduos: os alunos e seus familiares próximos; os professores e seus sindicatos de classe; os especialistas em educação; os legiladores e os formuladores de políticas públicas e as pessoas em geral interessadas no tema.
 
-![Persona 1](./img/Persona (1).png)
-![Persona 2](./img/Persona (2).png)
-![Persona 3](./img/Persona (3).png)
-![Persona 4](./img/Persona (4).png)
-![Stakholder Map](./img/Stakeholder Map.png)
+![Persona 1](./img/Persona-(1).png)
+![Persona 2](./img/Persona-(2).png)
+![Persona 3](./img/Persona-(3).png)
+![Persona 4](./img/Persona-(4).png)
+![Stakholder Map](./img/Stakeholder-Map.png)
 
 ## Estado da arte
 
