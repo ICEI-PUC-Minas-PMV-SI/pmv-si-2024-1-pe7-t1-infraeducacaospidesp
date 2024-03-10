@@ -12,15 +12,13 @@ Texto descritivo introdutório apresentando a visão geral do projeto a ser dese
 
 ## Problema
 
-Nesta seção, você deve apresentar o problema que a sua investigação/experimentação busca resolver. Por exemplo, caso o _dataset_ selecionado, seja um _dataset_ que contenha uma série temporal com o preço de diversas ações da bolsa de valores, o problema pode estar relacionado a dificuldade em saber a melhor hora (hora certa??) de comprar ou então, de executar a venda de uma determinada ação.
+A carência de infraestrutura nas escolas brasileiras é um desafio constante para as famílias de renda média e baixa. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Isso tem consequências conhecidas há décadas, com jovens e adultos enfrentando sérias deficiências em seu processo educacional, resultando em um ônus significativo para o país. 
 
-Descreva ainda o contexto em que essa aplicação será usada, se houver: empresa parceira, tecnologias etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Essas famílias representam mais de 90% da população brasileira, o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada. 
 
-> **Links Úteis**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Pesquisadores de renome internacional ressaltam que uma infraestrutura escolar de qualidade e adequada à demanda escolar tem o poder de influenciar positivamente no processo de aprendizagem dos alunos e, consequentemente, na qualidade do ensino fornecido pelos professores. Observações e diagnósticos têm consistentemente demonstrado que escolas com infraestrutura precária, salas de aula superlotadas e falta de recursos básicos estão associadas a resultados acadêmicos mais baixos e taxas de desistência mais altas. 
+
+Neste contexto, nosso estudo se concentra na análise da infraestrutura educacional do Estado de São Paulo, utilizando como métrica o IDESP, um indicador de qualidade do ensino estadual. Dentre as questões e hipóteses formuladas, destacamos as seguintes: Quais estratégias de investimento em infraestrutura física, como reforma de instalações existentes e inclusão de novos espaços, demonstram ter maior impacto na melhoria da qualidade do ensino?; O que os especialistas em educação preconizam quanto à qualidade do ensino em escolas com melhores infraestruturas é algo quantificável nos dados do IDESP?
 
 ## Questão de Pesquisa
 
