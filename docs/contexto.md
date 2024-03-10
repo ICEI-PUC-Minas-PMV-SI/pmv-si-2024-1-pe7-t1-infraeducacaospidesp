@@ -79,7 +79,42 @@ Nesta seção, deverão ser descritas outras abordagens identificadas na literat
 
 # Descrição do _dataset_ selecionado
 
-Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. Lembre-se de informar o link de acesso a ele, bem como, de descrever cada um dos seus atributos (a que se refere, tipo etc.), se existem atributos faltantes etc.
+### Dataset: Portal da Transparência da Educação do Governo do Estado de São Paulo
+
+### Link : [Portal da Transparência da educação do Governo do estado de São Paulo](https://dados.educacao.sp.gov.br/dataset/portal-da-transpar%C3%AAncia)
+
+### Origem dos Dados
+
+O dataset selecionado foi obtido a partir do Portal da Transparência da Educação do Governo do Estado de São Paulo, que é uma uma plataforma que disponibiliza diversos dados públicos sobre a Educação no estado.
+
+### Conteúdo do Dataset
+O dataset contém diversas tabelas com informações variadas, tais como o sobre desempenho acadêmico, escolas, professores, destinação orçamentária e outras mais.
+
+### Formato de Dados
+Os dados das tabelas são relacionados conforme o que é visto em bancos dados relacionais, ou seja, contam com chaves estrangeiras que permitem os seus relacionamentos.
+
+Em um contexto geral, cada tabela é a representação de uma entidade, ou conjunto de dados específicos, e cada coluna de uma tabela representa um atributo da sua entidade relacionada.
+
+### Atributos
+Dentre as tabelas consideradas na análise deste projeto, as selecionadas são as de "Infraestrutura", "NOTAS_DO_IDESP" e "Escolas" (todas elas estão presentes em pastas de nomes "Mapa de escolas por diretoria" em cada período de avaliação).
+#### Tabela "ESCOLAS"
+Nessa tabela, serão assumidos os dados filtrados para escolas estaduais. O atribudo seleciobnado é:
+
+CODESC - Um inteiro que representa o Código da escola.
+
+#### Tabela "INFRAESTRUTURA"
+Nessa tabela, serão assumidos os dados filtrados para escolas estaduais no período de realização das avaliações do IDESP. Os atributos selecionados são:
+
+CATEGORIA - Uma string de área de aplicação do ambiente;
+
+SUBCATEGORIA - Uma string que define especificidade da infraestrutura;
+
+QTD - Um inteiro que define a quantidade de itens, de uma determinada infraestrutura, que existem na escola.
+
+#### Tabela "NOTAS_DO_IDESP"
+Nessa tabela, serão assumidos os dados filtrados de escolas estaduais. O atributo selecionado é:
+
+IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valor que pode variar de 0 a 10).
 
 # Canvas analítico
 
