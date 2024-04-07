@@ -8,7 +8,29 @@ Inclua nesta seção, gráficos, tabelas e demais artefatos que você considere 
 
 ## Descrição dos achados
 
-A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
+A análise foi realizada utilizando o mapa de calor como base após fazermos a união dos dados em um único dataset. Para isso utilizamos o python para unir a table de notas com a tabela de infraestrutura das escolas e poder analisar em um único dataset as informações que queremos cruzar.
+
+![Canvas Analítico](./img/mapa_de_calor.png)
+
+As correlações foram medidas através do coeficiente de correlação de Pearson, que indica a força e a direção da relação linear entre duas variáveis.
+
+Resultados e Discussão
+
+### Infraestrutura:
+
+O IDESP_AF não apresentou correlação significativa com a infraestrutura escolar (coeficiente de correlação de Pearson de 0,03), indicando que outros fatores, como gestão escolar, qualificação dos professores e contexto socioeconômico dos alunos, influenciam mais o desempenho das escolas.
+
+### Cozinhas e Salas de Aula:
+
+Similarmente, não foi detectada correlação significativa entre o IDESP_AF e a qualidade das cozinhas (coeficiente de correlação de Pearson de 0,04) e das salas de aula (coeficiente de correlação de Pearson de 0,02).
+
+### Esportes:
+
+Uma correlação positiva fraca (coeficiente de correlação de Pearson de 0,10) foi observada entre o IDESP_AF e a presença de infraestrutura para esportes, sugerindo que escolas com melhores resultados no IDESP_AF tendem a ter mais recursos para atividades esportivas.
+
+### Laboratórios e Leitura:
+
+O IDESP_AF não apresentou correlação significativa com a presença de laboratórios (coeficiente de correlação de Pearson de 0,07) ou com o incentivo à leitura (coeficiente de correlação de Pearson de 0,09).
 
 ## Ferramentas utilizadas
 
