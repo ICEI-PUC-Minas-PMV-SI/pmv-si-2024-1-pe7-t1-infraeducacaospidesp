@@ -50,5 +50,7 @@ O IDESP_AF não apresentou correlação significativa com a presença de laborat
 
 ## Ferramentas utilizadas
 
-Existem muitas ferramentas diferentes que podem ser utilizadas para fazer a análise dos dados. Nesta seção, descreva as ferramentas/tecnologias utilizadas e sua aplicação.
-
+Para viabilizar as análises e resultados desta etapa, foi necessário o uso das seguintes ferramentas e linguagem:
+* Excel - O excel foi usado para a análise inicial dos dados, cálculos de média, mediana e moda, sendo que ele também foi a ferramenta responsável pelo processamento dos cálculos isolados das correlações;
+* VS Code - O VS Code foi usado para o desenvolvimento do programa responsável por unificar os dados das tabelas e por gerar o gráfico de Calor;
+* Python e suas bibliotecas - A linguagem Python foi usada para permitir a implementação dos gráficos e para facilitar o processamento dos merges das tabelas.
