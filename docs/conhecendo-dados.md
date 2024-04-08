@@ -1,10 +1,26 @@
 # Conhecendo os dados
 
-Nesta seção, você deverá registrar uma detalhada análise descritiva e exploratória sobre a base de dados selecionada na Etapa 1 com o objetivo de compreender a estrutura dos dados, detectar eventuais _outliers_ e também, avaliar/detectar as relações existentes entre as variáveis analisadas.
+O processo de exploração dos dados foi baseado na manipulação e análise de dados provenientes de duas tabelas do dataset selecionado, intituladas "INFRAESTRUTURA" e "NOTAS_DO_IDESP". A tabela "INFRAESTRUTURA", representada pela filtragem presente na Tabela 2 a seguir, continha informações sobre diversas escolas, incluindo características de infraestrutura, como categoria, subcategoria, data de cadastro, quantidade e data de atualização e a a tabela "NOTAS_DO_IDESP", demonstrada pela filtragem presente na Tabela 2 a seguir, continha dados sobre o Índice de Desenvolvimento da Educação do Estado de São Paulo (IDESP) de diferentes escolas, bem como outras informações como o ano de aplicação e a data de cadastro.
 
-Para isso, sugere-se que você utilize cálculos de medidas de tendência central, como média, mediana e moda, para entender a centralidade dos dados; explorem medidas de dispersão como desvio padrão e intervalos interquartil para avaliar a variabilidade dos dados; utilizem gráficos descritivos como histogramas e box plots, para representar visualmente as características essenciais dos dados, pois essas visualizações podem facilitar a identificação de padrões e anomalias; analisem a relação aparente entre as variáveis por meio de análise de correlação ou gráficos de dispersões, entre outras técnicas. 
+![Tabela 1 - Infraestrutura das Escolas ](./img/Tabela_Infra_Escolas.png)
 
-Inclua nesta seção, gráficos, tabelas e demais artefatos que você considere relevantes para entender os dados com os quais você irá trabalhar. 
+Tabela 1 - Infraestrutura das Escolas
+
+
+![Tabela 2 - Notas do IDESP](./img/Tabela_Notas_Idesp.png)
+
+Tabela 2 - Notas do IDESP
+
+Inicialmente, os dados foram lidos e armazenados em estruturas de dados no VS CODE, em um programa feito em Python, utilizando a biblioteca Pandas. Em seguida, foi realizada uma filtragem e agrupamento dos dados da tabela "INFRAESTRUTURA", baseando-se, para isso, em determinadas categorias relevantes, como banheiros, cozinhas, esportes, laboratórios, leituras, outros e salas de aula. Posteriormente, as colunas foram renomeadas para facilitar a interpretação dos resultados.
+
+Em um segundo momento, os dados das tabelas "INFRAESTRUTURA" e "NOTAS_DO_IDESP" foram mesclados com base no código da escola (COD_ESC). O resultado desse processo foi uma nova tabela contendo informações combinadas sobre infraestrutura e notas do IDESP para cada escola, contendo, inicialmente, as colunas "COD_ESC", "BANHEIROS", "COZINHA", "LABORATÓRIO","ESPORTE", "SALAS DE AULA", "LEITURA", "OUTROS", "IDESP_AI", "IDESP_AF", "DESP_EM", "ANO_APLICACAO" e "DTCADASTRO". Esse processo resultou no arquivo representado, com filtragem aplicada, pela Tabela 3 a seguir (mais detalhes do código aplicado podem ser vistos em ![mesclagem de dados](/./utils/main.py)).
+
+
+![Tabela 3 - Infraestrutura das Escolas com Notas do IDESP ](./img/Tabela_Infra_E_Notas_Idesp.png)
+
+Tabela 3 - Infraestrutura das Escolas Mescladas com Notas do IDESP
+
+
 
 ## Descrição dos achados
 
