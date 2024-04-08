@@ -20,7 +20,27 @@ Em um segundo momento, os dados das tabelas "INFRAESTRUTURA" e "NOTAS_DO_IDESP" 
 
 Tabela 3 - Infraestrutura das Escolas Mescladas com Notas do IDESP
 
+Essa tabela foi dividida em três partes, correspondentes aos anos de aplicação das provas na parte do dataset selecionado, que são os anos de 2018, que teve a sua correlação de dados representada pela Tabela 4, 2019, que teve a sua correlação de dados representada pela tabela 5, e 2021, que teve a sua correlação de dados representada pela tabela 6. Foram realizados cálculos estatísticos, como mediana e correlação entre os dados, utilizando ferramentas disponíveis no Microsoft Excel.
 
+![Tabela 4 - Correlação de dados de 2018 ](./img/Tabela_Correlacao_2018.png)
+
+Tabela 4 - Correlação dos dados da tabela mesclada no ano das notas do IDESP de 2018
+
+![Tabela 5 - Correlação de dados de 2019 ](./img/Tabela_Correlacao_2019.png)
+
+Tabela 5 - Correlação dos dados da tabela mesclada no ano das notas do IDESP de 2019
+
+![Tabela 6 - Correlação de dados de 2021 ](./img/Tabela_Correlacao_2021.png)
+
+Tabela 6 - Correlação dos dados da tabela mesclada no ano das notas do IDESP de 2021
+
+Ainda no excel, foi feito o cálculo para análise de média, mediana e moda, para ser possível ter uma interpretação mais ampla do mapa de  calor que seria gerado posteriormente.
+
+![Tabela 7 - Média, Mediana e Moda de todos os dados de infraestrutura](./img/Media_Mediana_Moda.png)
+
+Tabela 7 - Média, Mediana e Moda de todos os dados de infraestrutura
+
+Em seguida, foi gerado um mapa de calor utilizando a biblioteca Seaborn em Python, onde a correlação entre os diferentes tipos de infraestrutura e as notas do IDESP foi representada graficamente. Para essa visualização, foram removidas as colunas irrelevantes (ANO_APLICACAO, COD_ESC, IDESP_AI, IDESP_EM, DTCADASTRO) e utilizadas as informações restantes da tabela combinada. O mapa de calor proporcionou uma representação visual das relações entre os diversos aspectos da infraestrutura das escolas e o desempenho no IDESP, auxiliando na identificação de padrões e tendências nos dados analisados e é apresentado a seguir, na descrição dos achados (mais detalhes do código aplicado para gerar o mapa de calor podem ser vistos em ![mapa de calor](/./utils/MapaDeCalor)).
 
 ## Descrição dos achados
 
