@@ -1,0 +1,15 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
+df_infraestrutura_notas = pd.read_excel('notas_idesp_com_infraestrutura.xlsx');
+df_infraestrutura_notas = df_infraestrutura_notas.dropna(subset=['IDESP_AF']);
+df_infraestrutura_notas = df_infraestrutura_notas[['BANHEIROS', 'COZINHA', 'ESPORTE', 'SALAS DE AULA', 'LEITURA', 'LABORATÓRIO', 'OUTROS', 'IDESP_AF']];
+
+#df_infraestrutura_notas = df_infraestrutura_notas.loc[:, ~df_infraestrutura_notas.columns.str.contains('^Unnamed')];
+
+plt.figure(figsize=(8, 8));
+heatmap = sns.heatmap(df_infraestrutura_notas.corr(), annot=True, cmap='YlOrRd', fmt=".2f", annot_kws={"size": 10}, linewidths=2, linecolor='yellow');
+plt.title('Mapa de calor Infraestrutura x Nota IDESP');
+plt.show();
