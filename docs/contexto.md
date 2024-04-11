@@ -1,39 +1,41 @@
-# Introdução
+# Introdução OK
 
 A Constituição Federal de 1988 estabelece a educação como um direito fundamental de todo cidadão brasileiro e, em seus artigos 205 e 214, define que o ensino visa garantir o pleno exercício da cidadania, o desenvolvimento pessoal de cada indivíduo e a condução à erradicação do analfabetismo. A Carta Magna também define, em seu artigo 206, o direito a iguais condições de acesso, permanência e manutenção de padrões de qualidade em instituições de ensino, uma vez que, se não garantidos esses pontos, o aluno pode ter sua permanência prejudicada em locais educacionais. Nesse contexto, a alfabetização e a infraestrutura das instituições se apresentam como algo fundamental para a garantia , junto ao cidadão, da educação formal e do acesso pleno aos direitos constitucionais.
 
 Considerando essas observações e levando-se em consideração que notas de avaliações sobre a educação, como a do IDESP, podem permitir um melhor entendimento, juntamente com os dados de infraestrutura das escolas, de como a igualdade de acesso pode influenciar no desempenho dos alunos em seu processo de alfabetização, este trabalho objetiva experimentar um modelo de aprendizado que permita uma análise de como a infraestrutura pode influenciar no processo de alfabetização, garantindo o que é desejado na constituição, no que diz respeito a erradicação do analfabetismo no Brasil.
 
-## Problema
+## Problema (1/2 OK) (incluírem afirmações e números, estes precisam ser referenciados MI)
 
 A carência de infraestrutura nas escolas brasileiras é um desafio constante para as famílias de renda média e baixa. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Isso tem consequências conhecidas há décadas, com jovens e adultos enfrentando sérias deficiências em seu processo educacional, resultando em um ônus significativo para o país. 
 
-Essas famílias representam mais de 90% da população brasileira, o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada. 
+Essas famílias representam mais de 90% da população brasileira de acordo com Schneider et al. (2020), o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada. 
 
 Pesquisadores de renome internacional ressaltam que uma infraestrutura escolar de qualidade e adequada à demanda escolar tem o poder de influenciar positivamente no processo de aprendizagem dos alunos e, consequentemente, na qualidade do ensino fornecido pelos professores. Observações e diagnósticos têm consistentemente demonstrado que escolas com infraestrutura precária, salas de aula superlotadas e falta de recursos básicos estão associadas a resultados acadêmicos mais baixos e taxas de desistência mais altas. 
 
 Neste contexto, nosso estudo se concentra na análise da infraestrutura educacional do Estado de São Paulo, utilizando como métrica o IDESP, um indicador de qualidade do ensino estadual. Dentre as questões e hipóteses formuladas, destacamos as seguintes: Quais estratégias de investimento em infraestrutura física, como reforma de instalações existentes e inclusão de novos espaços, demonstram ter maior impacto na melhoria da qualidade do ensino?; O que os especialistas em educação preconizam quanto à qualidade do ensino em escolas com melhores infraestruturas é algo quantificável nos dados do IDESP?
 
-## Questão de Pesquisa
+## Questão de Pesquisa OK
 
 Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho na alfabetização, medido pelo IDESP. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
 
 **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos na alfabetização, de acordo com a avaliação do IDESP?
 
-## Objetivos preliminares
+## Objetivos preliminares OK
 
-### Objetivo Geral
+### Objetivo Geral OK
 
 Experimentar modelos de aprendizado de máquina adequados para apontar a influência da infraestrutura escolar no desempenho dos alunos de alfabetização, conforme avaliação do IDESP de 2023.
 
-### Objetivos Específicos
+### Objetivos Específicos OK
 
 - Verificar as notas Alfabetização do IDESP ao longo de 2023 de acordo com as instituições de ensino;
 - Verificar a infraestrutura das escolas de São Paulo no período em que foram aplicadas as avaliações do IDESP de 2023;
 - Identificar os modelos existentes de aprendizado de máquina que mais se aproximam do objetivo de entendimento da influência da infraestrutura escolar nas notas de alunos;
 - Comparar, por meio de modelo de aprendizado de máquina selecionado, as variações das notas do IDESP conforme a variação da infraestrutura escolar.
 
-## Justificativa
+## Justificativa (precisam colocar mais dados com FONTES que corroborem com o problema identificado. MI) 
+
+*(Por exemplo, todas as afirmações feitas na introdução e até na descrição do problema precisam ser repetidas aqui com suas respectivas fontes. Pensem a justificativa como se ela tivesse duas partes: (1) diversos dados que mostrem o impacto que a falta de educação de qualidade pode provocar na vida das pessoas e até, como as escolas públicas têm menor desempenho em diversos indicadores e, (2) um resumo dos objetivos que vocês desejam alcançar que deixe claro que a abordagem proposta permitirá alcançá-los e os benefícios que a solução trará. )*
 
 A escolha desse conjunto de dados e objetivos específicos transcorre pela necessidade de compreender melhor como a infraestrutura das escolas públicas impacta diretamente no desempenho de seus alunos, alinhando-se com os objetivos de desenvolvimento sustentável estabelecidos pela ONU, em particular, o ODS4, que visa garantir uma educação de qualidade, inclusiva e equitativa para todos.
 
@@ -43,7 +45,9 @@ O público-alvo dessa obra inclui gestores educacionais, formuladores de políti
 
 Este trabalho está baseado em dados do IDESP (Índice de Desenvolvimento da Educação do Estado de São Paulo), o qual fornece dados confiáveis e informações essenciais para embasar a análise da relação entre infraestrutura escolar e desempenho dos alunos, bem como para justificar a importância e relevância do tema abordado.
 
-## Público-Alvo
+## Público-Alvo (1/2 OK LE)
+
+(mas se forem citar as personas, é importante contextualizar o porquê elas estão ali de forma que as imagens não fiquem soltas no texto. Idem para o mapa de stakeholders.)
 
 Foi estabelecido como público-alvo os seguintes indivíduos: os alunos e seus familiares próximos; os professores e seus sindicatos de classe; os especialistas em educação; os legiladores e os formuladores de políticas públicas e as pessoas em geral interessadas no tema.
 
@@ -53,7 +57,8 @@ Foi estabelecido como público-alvo os seguintes indivíduos: os alunos e seus f
 ![Persona 4](./img/Persona-(4).png)
 ![Stakholder Map](./img/Stakeholder-Map.png)
 
-## Estado da arte
+## Estado da arte (1/2ok) (Juntas)
+*(Estado da arte: os trabalhos descritos deixam claro que existe sim uma relação entre a infraestrutura e os indicadores que medem a qualidade do ensino, porém senti falta de um detalhamento maior dos dados/variáveis que foram utilizados para tais estudos e de um direcionamento maior para a questão técnica dos algoritmos utilizados. Quais modelos foram implementados e qual a confiabilidade dos modelos construídos? Quais métricas foram utilizadas para avaliar cada um deles? )*
 
 A pesquisa sobre infraestrutura escolar e qualidade do ensino, como apresentada por Sá e Werle (2017), revela-se um campo rico e promissor, embora seja pouco discutido em termos quantitativos no Brasil. Em sua análise de teses e dissertações defendidas nos programas de pós-graduação em Educação brasileiros, entre 2003 e 2013, os autores destacam a necessidade de uma maior atenção a essa temática, especialmente no que diz respeito à infraestrutura escolar. Isso ocorre porque o conjunto de trabalhos examinados aponta para lacunas significativas, como a necessidade de uma abordagem mais centrada na infraestrutura escolar, explorando suas diversas dimensões e suas relações com o currículo, o bem-estar docente e a acolhida discente. Segundo os pesquisadores, há uma urgência em ampliar a variedade de temas de pesquisa e aprofundar questões empíricas, garantindo um tratamento mais abrangente e detalhado dos aspectos físicos disponíveis nas escolas, incluindo prédios, salas de aula e equipamentos. Esse panorama evidencia a importância de expandir e aprimorar os estudos nessa área, a fim de promover um ambiente escolar mais propício ao aprendizado e ao desenvolvimento integral dos alunos. Com vistas à ampliação desse campo de estudo, nosso intuito é contribuir analiticamente para o desenvolvimento dessa linha de pesquisa e, para realizar isso adequadamente, é preciso revisar, de modo breve, o que já fora discutido em conjunto com os métodos aplicados. Nesse sentido, nesta apresentação do estado da arte dessa temática, priorizou-se publicações que abrangem o período entre 2015 e 2023 que serão discutidas nos próximos parágrafos.
 
@@ -89,7 +94,7 @@ Por último, o estudo de Swarna Prava Hota (2023) buscou compreender duas dimens
 
 Esses estudos, portanto, contribuem significativamente para o entendimento da relação entre infraestrutura escolar, investimentos em educação e qualidade do ensino, fornecendo insights importantes para formuladores de políticas, pesquisadores e profissionais da área educacional.
 
-# Descrição do _dataset_ selecionado
+# Descrição do _dataset_ selecionado OK
 
 ### Dataset: Portal da Transparência da Educação do Governo do Estado de São Paulo
 
@@ -128,11 +133,12 @@ Nessa tabela, serão assumidos os dados filtrados de escolas estaduais. O atribu
 
 IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valor que pode variar de 0 a 10).
 
-# Canvas analítico
+# Canvas analítico (1/2 OK LE)
+(no Canvas analítico, as seções de 4 a 7 já poderiam ter sido preenchidas com hipóteses identificadas até este momento. Por exemplo: a seção de implementação já poderia sugerir algoritmos identificados no levantamento do estado da arte que tiveram bons resultados e que são bons “candidatos” para serem utilizados na abordagem de vocês.)
 
 ![Canvas Analítico](./img/canvas_analitico.png)
 
-# Referências
+# Referências (Juntas)
 CENTRO DE REFERÊNCIAS EM EDUCAÇÃO INTEGRAL. Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
 
 CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL de 1988. Brasília, DF: Presidência da República. Disponível em: <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>. Acesso em: 08 de mar. de 2024.
@@ -152,6 +158,9 @@ NAÇÕES UNIDAS. ODS 4 - Educação de qualidade. Disponível em: <https://brasi
 RAMOS, Thiago Graca; MACHADO, Jean Cristian Ferreira; CORDEIRO, Bruna Principe Vieira. Primary Education Evaluation in Brazil Using Big Data and Cluster Analysis. Procedia Computer Science, v. 55, p. 1031-1039, 2015. ISSN 1877-0509. Disponível em: <https://doi.org/10.1016/j.procs.2015.07.061>. Acesso em: 10 mar. 2024.
 
 SÁ, J. dos S.; WERLE, F. O. C.. Infraestrutura escolar e espaço físico em educação: o estado da arte. Cadernos De Pesquisa, v. 47, n. 164, p. 386–413, 2017. Disponível em: <https://doi.org/10.1590/198053143735>. Acesso em: 10 de mar. de 2024.
+
+Schneider, G.; Frantz, M. G.; Alves, T. Infraestrutura das escolas públicas no Brasil: desigualdades e desafios para o financiamento da educação básica. Revista Educação Básica em Foco, v. 1, n. 3, p. 1-17, out.-dez. 2020. Disponível em:<https://educacaobasicaemfoco.net.br/02/Artigos/Infraestrutura_das_escolas_publicas_no_brasil_SCHNEIDER-Gabriela_FRANTZ-Maira-Gallotti_ALVES-Thiago.pdf>
+Acesso em: 07 de abr. de 2024.
 
 VASCONCELOS, Joyciane Coelho et al. Infraestrutura escolar e investimentos públicos em Educação no Brasil: a importância para o desempenho educacional. Ensaio: aval. pol. públ. educ., Rio de Janeiro, v. 29, n. 113, p. 874-898, out. 2021. Disponível em: <http://educa.fcc.org.br/scielo.php?script=sci_arttext&pid=S0104-40362021000400874&lng=pt&nrm=iso>. Acesso em: 10 mar. 2024.
 
