@@ -1,3 +1,7 @@
+# Questão orientada a dados (???)
+
+# Análise dos atributos considerando os tipos de dados
+
 # Preparação dos dados
 
 Nesta etapa, deverão ser descritas todas as técnicas utilizadas para pré-processamento/tratamento dos dados.
