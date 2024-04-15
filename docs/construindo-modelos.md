@@ -1,6 +1,8 @@
-# Questão orientada a dados (???)
+## Pergunta orientada a dados (???)
+Justificar a definição / diferença da questão de pesquisa
 
-# Análise dos atributos considerando os tipos de dados
+## Tipos de dados do dataset
+Qual o tipo de cada um dos atributos?
 
 # Preparação dos dados
 
