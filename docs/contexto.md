@@ -4,7 +4,7 @@ A Constituição Federal de 1988 estabelece a educação como um direito fundame
 
 Considerando essas observações e levando-se em consideração que notas de avaliações sobre a educação, como a do IDESP, podem permitir um melhor entendimento, juntamente com os dados de infraestrutura das escolas, de como a igualdade de acesso pode influenciar no desempenho dos alunos em seu processo de alfabetização, este trabalho objetiva experimentar um modelo de aprendizado que permita uma análise de como a infraestrutura pode influenciar no processo de alfabetização, garantindo o que é desejado na constituição, no que diz respeito a erradicação do analfabetismo no Brasil.
 
-## Problema (1/2 OK) (incluírem afirmações e números, estes precisam ser referenciados MI)
+## Problema (1/2 OK) (incluírem afirmações e números, estes precisam ser referenciados - Rafa)
 
 A carência de infraestrutura nas escolas brasileiras é um desafio constante para as famílias de renda média e baixa. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Isso tem consequências conhecidas há décadas, com jovens e adultos enfrentando sérias deficiências em seu processo educacional, resultando em um ônus significativo para o país. 
 
@@ -33,7 +33,7 @@ Experimentar modelos de aprendizado de máquina adequados para apontar a influê
 - Identificar os modelos existentes de aprendizado de máquina que mais se aproximam do objetivo de entendimento da influência da infraestrutura escolar nas notas de alunos;
 - Comparar, por meio de modelo de aprendizado de máquina selecionado, as variações das notas do IDESP conforme a variação da infraestrutura escolar.
 
-## Justificativa (precisam colocar mais dados com FONTES que corroborem com o problema identificado. MI) 
+## Justificativa (precisam colocar mais dados com FONTES que corroborem com o problema identificado. Rafa) 
 
 *(Por exemplo, todas as afirmações feitas na introdução e até na descrição do problema precisam ser repetidas aqui com suas respectivas fontes. Pensem a justificativa como se ela tivesse duas partes: (1) diversos dados que mostrem o impacto que a falta de educação de qualidade pode provocar na vida das pessoas e até, como as escolas públicas têm menor desempenho em diversos indicadores e, (2) um resumo dos objetivos que vocês desejam alcançar que deixe claro que a abordagem proposta permitirá alcançá-los e os benefícios que a solução trará. )*
 
@@ -57,7 +57,7 @@ Foi estabelecido como público-alvo os seguintes indivíduos: os alunos e seus f
 ![Persona 4](./img/Persona-(4).png)
 ![Stakholder Map](./img/Stakeholder-Map.png)
 
-## Estado da arte (1/2ok) (Juntas)
+## Estado da arte (1/2ok) (Matheus)
 *(Estado da arte: os trabalhos descritos deixam claro que existe sim uma relação entre a infraestrutura e os indicadores que medem a qualidade do ensino, porém senti falta de um detalhamento maior dos dados/variáveis que foram utilizados para tais estudos e de um direcionamento maior para a questão técnica dos algoritmos utilizados. Quais modelos foram implementados e qual a confiabilidade dos modelos construídos? Quais métricas foram utilizadas para avaliar cada um deles? )*
 
 A pesquisa sobre infraestrutura escolar e qualidade do ensino, como apresentada por Sá e Werle (2017), revela-se um campo rico e promissor, embora seja pouco discutido em termos quantitativos no Brasil. Em sua análise de teses e dissertações defendidas nos programas de pós-graduação em Educação brasileiros, entre 2003 e 2013, os autores destacam a necessidade de uma maior atenção a essa temática, especialmente no que diz respeito à infraestrutura escolar. Isso ocorre porque o conjunto de trabalhos examinados aponta para lacunas significativas, como a necessidade de uma abordagem mais centrada na infraestrutura escolar, explorando suas diversas dimensões e suas relações com o currículo, o bem-estar docente e a acolhida discente. Segundo os pesquisadores, há uma urgência em ampliar a variedade de temas de pesquisa e aprofundar questões empíricas, garantindo um tratamento mais abrangente e detalhado dos aspectos físicos disponíveis nas escolas, incluindo prédios, salas de aula e equipamentos. Esse panorama evidencia a importância de expandir e aprimorar os estudos nessa área, a fim de promover um ambiente escolar mais propício ao aprendizado e ao desenvolvimento integral dos alunos. Com vistas à ampliação desse campo de estudo, nosso intuito é contribuir analiticamente para o desenvolvimento dessa linha de pesquisa e, para realizar isso adequadamente, é preciso revisar, de modo breve, o que já fora discutido em conjunto com os métodos aplicados. Nesse sentido, nesta apresentação do estado da arte dessa temática, priorizou-se publicações que abrangem o período entre 2015 e 2023 que serão discutidas nos próximos parágrafos.
@@ -138,7 +138,7 @@ IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valo
 
 ![Canvas Analítico](./img/canvas_analitico.png)
 
-# Referências (Juntas)
+# Referências (Todos)
 CENTRO DE REFERÊNCIAS EM EDUCAÇÃO INTEGRAL. Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
 
 CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL de 1988. Brasília, DF: Presidência da República. Disponível em: <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>. Acesso em: 08 de mar. de 2024.
