@@ -6,9 +6,10 @@ Considerando essas observações e levando-se em consideração que notas de ava
 
 ## Problema (1/2 OK) (incluírem afirmações e números, estes precisam ser referenciados - Rafa)
 
-A carência de infraestrutura nas escolas brasileiras é um desafio constante para as famílias de renda média e baixa. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Isso tem consequências conhecidas há décadas, com jovens e adultos enfrentando sérias deficiências em seu processo educacional, resultando em um ônus significativo para o país. 
+A carência de infraestrutura nas escolas brasileiras é um desafio constante para as famílias compostas por pessoas com rendimento domiciliar per capita abaixo da
+extrema pobreza (US$ 2,15/dia) e pobreza (US$ 6,85/dia)(IBGE, 2024), faixas baseadas na definição do banco mundial. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Os problemas enfrentados pelos estudantes das escolas públicas resulta em um ônus significativo para o país, tendo em vista que 80,1% dos alunos da educação básica no Brasil em 2023 estavam matriculados na rede pública (INEP, 2023).  
 
-Essas famílias representam mais de 90% da população brasileira, o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada. 
+Essas famílias representam mais de 50% da população brasileira (IBGE, 2024), o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada. 
 
 Pesquisadores de renome internacional ressaltam que uma infraestrutura escolar de qualidade e adequada à demanda escolar tem o poder de influenciar positivamente no processo de aprendizagem dos alunos e, consequentemente, na qualidade do ensino fornecido pelos professores. Observações e diagnósticos têm consistentemente demonstrado que escolas com infraestrutura precária, salas de aula superlotadas e falta de recursos básicos estão associadas a resultados acadêmicos mais baixos e taxas de desistência mais altas. 
 
@@ -163,5 +164,10 @@ Schneider, G.; Frantz, M. G.; Alves, T. Infraestrutura das escolas públicas no 
 Acesso em: 07 de abr. de 2024.
 
 VASCONCELOS, Joyciane Coelho et al. Infraestrutura escolar e investimentos públicos em Educação no Brasil: a importância para o desempenho educacional. Ensaio: aval. pol. públ. educ., Rio de Janeiro, v. 29, n. 113, p. 874-898, out. 2021. Disponível em: <http://educa.fcc.org.br/scielo.php?script=sci_arttext&pid=S0104-40362021000400874&lng=pt&nrm=iso>. Acesso em: 10 mar. 2024.
+
+INEP https://download.inep.gov.br/censo_escolar/resultados/2023/apresentacao_coletiva.pdf
+
+IBGE https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/070903d82038130a93f0374ada39f81d.pdf
+
 
 
