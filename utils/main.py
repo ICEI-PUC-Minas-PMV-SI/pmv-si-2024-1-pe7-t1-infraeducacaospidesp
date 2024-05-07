@@ -4,25 +4,24 @@ import pandas as pd
 table1 = pd.read_csv("infraestrutura.csv", sep=';')  # csv separado por ';'
 table2 = pd.read_csv("notas.csv", sep=';')          # csv separado por ';'
 
-categories = ["BANHEIROS", "COZINHA", "LABORATÓRIO", "ESPORTE", "SALAS DE AULA", "LEITURA", "OUTROS"]
+print(table1,table2)
 
-# Criar um novo DataFrame para armazenar os resultados
-results = pd.DataFrame()
 
-# Iterar sobre cada COD_ESC
-for cod_esc in table1['COD_ESC'].unique():
-    # Filtrar a table1 para o COD_ESC atual
-    school_data = table1[table1['COD_ESC'] == cod_esc]
-    # Inicializar um dicionário para armazenar a contagem de cada categoria
-    categories_count = {}
-    # Iterar sobre cada categoria
-    for category in categories:
-        # Somar a quantidade para a categoria atual
-        categories_count[category] = school_data[school_data['CATEGORIA'] == category]['QTD'].sum()
-    # Adicionar as contagens como uma nova linha no DataFrame de results
-    results = pd.concat([results, pd.DataFrame({'COD_ESC': [cod_esc], **categories_count})], ignore_index=True)
+# Filtrando e agrupar df_infraestrutura, não separamos os filtros por escola mais porque nos foi pedido para ignorar os dados de código de escola
+# e que escola pode constar em mais de uma linha desde que em anos distintos
+categories =table1[table1["CATEGORIA"].isin(["BANHEIROS", "COZINHA", "LABORATÓRIO", "ESPORTE", "SALAS DE AULA", "LEITURA", "OUTROS"])]
+categories_count = categories.groupby(["COD_ESC", "CATEGORIA"])['QTD'].sum().unstack(fill_value=0)
+
 
 # Merge table2 com results baseado em COD_ESC
-merged_results = pd.merge(results, table2[['COD_ESC', 'IDESP_AI', 'IDESP_AF', 'IDESP_EM', 'ANO_APLICACAO', 'DTCADASTRO']], on='COD_ESC', how='inner')
-merged_results.to_csv("resultados_completos.csv", index=False)
+merged_results = pd.merge(table2, categories_count, on='COD_ESC', how='inner')
+
+# Elimina valores nulos como nos foi pedido
+merged_results_filtrados = merged_results.dropna(subset=['IDESP_AF'])
+
+# Deixando só os dados que nos pediram, eliminando outras notas, código de escola, dados de datas...
+resultados_finais = merged_results_filtrados[['BANHEIROS', 'COZINHA', 'LABORATÓRIO', 'ESPORTE', 'SALAS DE AULA', 'LEITURA', 'OUTROS', 'IDESP_AF']];
+
+# Gera os resultados
+resultados_finais.to_csv("resultados_completos.csv", index=False)
 
