@@ -59,8 +59,8 @@ plt.show()
 
 df.corr()['CLASSIFICACAO_NOTA'].sort_values()
 
-x = df.drop(['CLASSIFICACAO_NOTA'], axis = 1)
-y = df['CLASSIFICACAO_NOTA']
+x = df.drop(['CLASSIFICACAO_NOTA','IDESP_AF'], axis = 1)
+y = df['IDESP_AF']
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state = 100)
 
@@ -86,5 +86,5 @@ print('Mean Absolute Error:', meanAbErr)
 print('Mean Square Error:', meanSqErr)
 print('Root Mean Square Error:', rootMeanSqErr)
 
-Classificacao_Nota_Index= mlr.predict([[7,99,0,9,9,9,9,0]])
+Classificacao_Nota_Index= mlr.predict([[3,3,2,2,18,1,8]])
 print(Classificacao_Nota_Index)
