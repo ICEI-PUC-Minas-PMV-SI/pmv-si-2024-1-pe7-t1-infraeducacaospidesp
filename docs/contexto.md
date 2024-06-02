@@ -7,11 +7,11 @@ Considerando essas observações e levando-se em consideração que notas de ava
 ## Problema
 
 A carência de infraestrutura nas escolas brasileiras é um desafio constante para as famílias compostas por pessoas com rendimento domiciliar per capita abaixo da
-extrema pobreza (US$ 2,15/dia) e pobreza (US$ 6,85/dia)(IBGE, 2024), faixas baseadas na definição do banco mundial. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Os problemas enfrentados pelos estudantes das escolas públicas resulta em um ônus significativo para o país, tendo em vista que 80,1% dos alunos da educação básica no Brasil em 2023 estavam matriculados na rede pública (INEP, 2023).  
+extrema pobreza (US$ 2,15/dia) e pobreza (US$ 6,85/dia)(IBGE, 2024), faixas baseadas na definição do banco mundial. Devido à escassez de recursos financeiros para matricular seus filhos em escolas privadas com instalações e serviços mais eficientes, muitas dessas famílias só conseguem lançar mão do direito constitucional à educação que se materializa, majoritariamente, de forma tão precária. Os problemas enfrentados pelos estudantes das escolas públicas resulta em um ônus significativo para o país, tendo em vista que 80,1% dos alunos da educação básica no Brasil em 2023 estavam matriculados na rede pública (INEP, 2023).
 
-Essas famílias representam mais de 50% da população brasileira (IBGE, 2024), o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada. 
+Essas famílias representam mais de 50% da população brasileira (IBGE, 2024), o que implica diretamente no menor desempenho econômico nacional, cuja suas consequências, em parte, vinculam-se à ausência de infraestrutura nos espaços escolares. Parte desse cenário poderia ser revertido por meio de políticas mais efetivas, que destinassem e fiscalizassem recursos para aprimorar as condições educacionais, porém, aparentemente, tal iniciativa não tem sido priorizada.
 
-Pesquisadores de renome internacional ressaltam que uma infraestrutura escolar de qualidade e adequada à demanda escolar tem o poder de influenciar positivamente no processo de aprendizagem dos alunos e, consequentemente, na qualidade do ensino fornecido pelos professores. Observações e diagnósticos têm consistentemente demonstrado que escolas com infraestrutura precária, salas de aula superlotadas e falta de recursos básicos estão associadas a resultados acadêmicos mais baixos e taxas de desistência mais altas. 
+Pesquisadores de renome internacional ressaltam que uma infraestrutura escolar de qualidade e adequada à demanda escolar tem o poder de influenciar positivamente no processo de aprendizagem dos alunos e, consequentemente, na qualidade do ensino fornecido pelos professores. Observações e diagnósticos têm consistentemente demonstrado que escolas com infraestrutura precária, salas de aula superlotadas e falta de recursos básicos estão associadas a resultados acadêmicos mais baixos e taxas de desistência mais altas.
 
 Neste contexto, nosso estudo se concentra na análise da infraestrutura educacional do Estado de São Paulo, utilizando como métrica o IDESP, um indicador de qualidade do ensino estadual. Dentre as questões e hipóteses formuladas, destacamos as seguintes: Quais estratégias de investimento em infraestrutura física, como reforma de instalações existentes e inclusão de novos espaços, demonstram ter maior impacto na melhoria da qualidade do ensino?; O que os especialistas em educação preconizam quanto à qualidade do ensino em escolas com melhores infraestruturas é algo quantificável nos dados do IDESP?
 
@@ -27,16 +27,16 @@ Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, p
 
 Experimentar modelos de aprendizado de máquina adequados para apontar a influência da infraestrutura escolar no desempenho dos alunos nos anos finais do ensino fundamental (5ª a 8ª séries), conforme avaliação do IDESP_AF de 2023.
 
-### Objetivos Específicos 
+### Objetivos Específicos
 
 - Verificar as notas dos anos finais do ensino fundamental do IDESP ao longo de 2023 de acordo com as instituições de ensino;
 - Verificar a infraestrutura das escolas de São Paulo no período em que foram aplicadas as avaliações do IDESP de 2023;
 - Identificar os modelos existentes de aprendizado de máquina que mais se aproximam do objetivo de entendimento da influência da infraestrutura escolar nas notas de alunos;
 - Comparar, por meio de modelo de aprendizado de máquina selecionado, as variações das notas do IDESP conforme a variação da infraestrutura escolar.
 
-## Justificativa (precisam colocar mais dados com FONTES que corroborem com o problema identificado. Rafa) 
+## Justificativa (precisam colocar mais dados com FONTES que corroborem com o problema identificado. Rafa)
 
-*(Por exemplo, todas as afirmações feitas na introdução e até na descrição do problema precisam ser repetidas aqui com suas respectivas fontes. Pensem a justificativa como se ela tivesse duas partes: (1) diversos dados que mostrem o impacto que a falta de educação de qualidade pode provocar na vida das pessoas e até, como as escolas públicas têm menor desempenho em diversos indicadores e, (2) um resumo dos objetivos que vocês desejam alcançar que deixe claro que a abordagem proposta permitirá alcançá-los e os benefícios que a solução trará. )*
+_(Por exemplo, todas as afirmações feitas na introdução e até na descrição do problema precisam ser repetidas aqui com suas respectivas fontes. Pensem a justificativa como se ela tivesse duas partes: (1) diversos dados que mostrem o impacto que a falta de educação de qualidade pode provocar na vida das pessoas e até, como as escolas públicas têm menor desempenho em diversos indicadores e, (2) um resumo dos objetivos que vocês desejam alcançar que deixe claro que a abordagem proposta permitirá alcançá-los e os benefícios que a solução trará. )_
 
 A escolha desse conjunto de dados e objetivos específicos transcorre pela necessidade de compreender melhor como a infraestrutura das escolas públicas impacta diretamente no desempenho de seus alunos, alinhando-se com os objetivos de desenvolvimento sustentável estabelecidos pela ONU, em particular, o ODS4, que visa garantir uma educação de qualidade, inclusiva e equitativa para todos.
 
@@ -48,13 +48,31 @@ Este trabalho está baseado em dados do IDESP (Índice de Desenvolvimento da Edu
 
 ## Público-Alvo
 
-Foi estabelecido como possível público-alvo para esse estudo os seguintes indivíduos: os alunos e seus familiares próximos; os professores e seus sindicatos de classe; os especialistas em educação; os legiladores e os formuladores de políticas públicas e as pessoas em geral interessadas no tema. Para uma visão mais detalhada de quem poderiam ser essas pessoas foram construídas as descrições de personas para representá-las e o mapa de stakeholders. 
+Foi estabelecido como possível público-alvo para esse estudo os seguintes indivíduos: os alunos e seus familiares próximos; os professores e seus sindicatos de classe; os especialistas em educação; os legiladores e os formuladores de políticas públicas e as pessoas em geral interessadas no tema. Para uma visão mais detalhada de quem poderiam ser essas pessoas foram construídas as descrições de personas para representá-las e o mapa de stakeholders.
 
-![Persona 1](./img/Persona-(1).png)
-![Persona 2](./img/Persona-(2).png)
-![Persona 3](./img/Persona-(3).png)
-![Persona 4](./img/Persona-(4).png)
+A persona a seguir é a Patrícia, que é a Persona que representa os professores e seus sindicatos de classe:
+![Persona 1](<./img/Persona-(1).png>)
+
+Figura 1 - Persona que representa os professores e seus sindicatos de classe.
+
+A próxima persona é o Pedro, que representa os legiladores e os formuladores de políticas públicas:
+![Persona 2](<./img/Persona-(2).png>)
+
+Figura 2 - Persona que representa os legiladores e os formuladores de políticas públicas.
+
+Débora é a persona a seguir, que representa os alunos e seus familiares próximos
+![Persona 3](<./img/Persona-(3).png>)
+
+Figura 3 - Persona que representa os alunos e seus familiares próximos.
+
+Por fim, temos a persona Ana, que representa as pessoas em geral interessadas no tema:
+![Persona 4](<./img/Persona-(4).png>)
+
+Figura 4 - Persona que representa as pessoas em geral interessadas no tema.
+
+A interceção entre essas Personas pode ser vista no de mapa Stakholder a seguir:
 ![Stakholder Map](./img/Stakeholder-Map.png)
+Figura 5 - Mapa de Stakholder do público alvo.
 
 ## Estado da arte
 
@@ -66,9 +84,9 @@ Aplicando como metodologia a Knowledge Discovery in Databases (KDD), então, sub
 
 Por meio da ferramenta WEKA de mineração de dados, os pesquisadores lançaram mão de algoritmos de aprendizado de máquina supervisionados, os quais são: Árvore de Decisão (J48) e Classificação Bayesiana (Naive Bayes). Quanto aos resultados do estudo, os pesquisadores definiram um conjunto de quatro cenários, embora o primeiro cenário seja o de nosso interesse cujo o foco é a infraestrutura, o algoritmo de árvore de decisão foi criado um modelo com 62% de acurácia, porém, para escolas federais, a precisão caiu para 48% em 2015, sugerindo mudanças na infraestrutura. Um experimento com dados de 2014 revelou overfitting, com uma acurácia de 97%, o que comprometeu a aplicabilidade do modelo a novos dados. Embora o overfitting possa ser útil para entender os dados de treinamento, neste caso, focar em regras consistentes ao longo do tempo tornou-o prejudicial.
 
-GUSMÃO; GUSMÃO; DIAS (2021) também lançou mão de dados de desempenho educacional do Índice de Desenvolvimento da Educação Básica (IDEB) de 2017, mas de 96 escolas públicas de Sergipe, obtidos do portal do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP). Com o objetivo de obter uma análise abrangente do desempenho educacional do Estado de Sergipe, os pesquisadores delimitaram o estudo a 188 atributos e utilizaram como ferramenta de limpeza e análise de dados a plataforma RapidMiner. 
+GUSMÃO; GUSMÃO; DIAS (2021) também lançou mão de dados de desempenho educacional do Índice de Desenvolvimento da Educação Básica (IDEB) de 2017, mas de 96 escolas públicas de Sergipe, obtidos do portal do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP). Com o objetivo de obter uma análise abrangente do desempenho educacional do Estado de Sergipe, os pesquisadores delimitaram o estudo a 188 atributos e utilizaram como ferramenta de limpeza e análise de dados a plataforma RapidMiner.
 
-Empregando como metodologia a Cross-Industry Standard Process for Data Mining (CRISP-DM) cujo processo se constitui em seis etapas: "(1) Entendimento do negócio, (2) Entendimentodos Dados, (3) Preparação dos Dados, (4) Modelagem, (5) Avaliação e (6) Implantação." (Idem, 2021), os autores do artigo optaram por diversos modelos supervisionados, mas aqueles de maior acurácia foram os de regressão linear e máquina de vetor de suporte. Eles enfatizam que "foram considerados cinco métodos de máquina supervisionada voltados para o problema de classificação, a saber:  Regressão Logística, ́Árvore de Decisão, Regressão Linear, Naive Bayes e Máquina de Vetor de Suporte (SVM). Na primeira parte dos experimentos,considerou-se o m ́etodo Holdout [Han et al. 2012], em que 70% dos dados foram usados para o treinamento e 30% para a realização de testes.  Na segunda parte dos experimen-tos, utilizou-se a técnica Validação Cruzada k-folds [Han et al. 2012]." (Idem, 2021)
+Empregando como metodologia a Cross-Industry Standard Process for Data Mining (CRISP-DM) cujo processo se constitui em seis etapas: "(1) Entendimento do negócio, (2) Entendimentodos Dados, (3) Preparação dos Dados, (4) Modelagem, (5) Avaliação e (6) Implantação." (Idem, 2021), os autores do artigo optaram por diversos modelos supervisionados, mas aqueles de maior acurácia foram os de regressão linear e máquina de vetor de suporte. Eles enfatizam que "foram considerados cinco métodos de máquina supervisionada voltados para o problema de classificação, a saber: Regressão Logística, ́Árvore de Decisão, Regressão Linear, Naive Bayes e Máquina de Vetor de Suporte (SVM). Na primeira parte dos experimentos,considerou-se o m ́etodo Holdout [Han et al. 2012], em que 70% dos dados foram usados para o treinamento e 30% para a realização de testes. Na segunda parte dos experimen-tos, utilizou-se a técnica Validação Cruzada k-folds [Han et al. 2012]." (Idem, 2021)
 
 Como resultados da validação cruzada, a máquina de vetor de suporte teve um desempenho melhor do que outros métodos, com uma média de acurácia de 95.89% e um desvio padrão de 7.11%. Por outro lado, o Naive Bayes teve o desempenho mais baixo, com uma média de acurácia de 90.67% e um desvio padrão de 12.65%. No método Holdout, tanto a regressão linear quanto a máquina de vetor de suporte se destacaram em termos de acurácia, enquanto os outros métodos tiveram desempenho semelhante.
 
@@ -115,21 +133,27 @@ Esses estudos, portanto, contribuem significativamente para o entendimento da re
 O dataset selecionado foi obtido a partir do Portal da Transparência da Educação do Governo do Estado de São Paulo, que é uma uma plataforma que disponibiliza diversos dados públicos sobre a Educação no estado.
 
 ### Conteúdo do Dataset
+
 O dataset contém diversas tabelas com informações variadas, tais como o sobre desempenho acadêmico, escolas, professores, destinação orçamentária e outras mais.
 
 ### Formato de Dados
+
 Os dados das tabelas são relacionados conforme o que é visto em bancos dados relacionais, ou seja, contam com chaves estrangeiras que permitem os seus relacionamentos.
 
 Em um contexto geral, cada tabela é a representação de uma entidade, ou conjunto de dados específicos, e cada coluna de uma tabela representa um atributo da sua entidade relacionada.
 
 ### Atributos
+
 Dentre as tabelas consideradas na análise deste projeto, as selecionadas são as de "Infraestrutura", "NOTAS_DO_IDESP" e "Escolas" (todas elas estão presentes em pastas de nomes "Mapa de escolas por diretoria" em cada período de avaliação).
+
 #### Tabela "ESCOLAS"
+
 Nessa tabela, serão assumidos os dados filtrados para escolas estaduais. O atribudo seleciobnado é:
 
 CODESC - Um inteiro que representa o Código da escola.
 
 #### Tabela "INFRAESTRUTURA"
+
 Nessa tabela, serão assumidos os dados filtrados para escolas estaduais no período de realização das avaliações do IDESP. Os atributos selecionados são:
 
 CATEGORIA - Uma string de área de aplicação do ambiente;
@@ -139,16 +163,21 @@ SUBCATEGORIA - Uma string que define especificidade da infraestrutura;
 QTD - Um inteiro que define a quantidade de itens, de uma determinada infraestrutura, que existem na escola.
 
 #### Tabela "NOTAS_DO_IDESP"
+
 Nessa tabela, serão assumidos os dados filtrados de escolas estaduais. O atributo selecionado é:
 
 IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valor que pode variar de 0 a 10).
 
 # Canvas analítico (1/2 OK LE)
+
 (no Canvas analítico, as seções de 4 a 7 já poderiam ter sido preenchidas com hipóteses identificadas até este momento. Por exemplo: a seção de implementação já poderia sugerir algoritmos identificados no levantamento do estado da arte que tiveram bons resultados e que são bons “candidatos” para serem utilizados na abordagem de vocês.)
 
 ![Canvas Analítico](./img/canvas_analitico.png)
 
+Figura 6 - Canvas Analítico.
+
 # Referências (Todos)
+
 CENTRO DE REFERÊNCIAS EM EDUCAÇÃO INTEGRAL. Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
 
 CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL de 1988. Brasília, DF: Presidência da República. Disponível em: <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>. Acesso em: 08 de mar. de 2024.
