@@ -121,7 +121,7 @@ Por último, o estudo de Swarna Prava Hota (2023) buscou compreender duas dimens
 
 Esses estudos, portanto, contribuem significativamente para o entendimento da relação entre infraestrutura escolar, investimentos em educação e qualidade do ensino, fornecendo insights importantes para formuladores de políticas, pesquisadores e profissionais da área educacional.
 
-# Descrição do _dataset_ selecionado OK
+# Descrição do _dataset_ selecionado 
 
 ### Dataset: Portal da Transparência da Educação do Governo do Estado de São Paulo
 
@@ -167,7 +167,7 @@ Nessa tabela, serão assumidos os dados filtrados de escolas estaduais. O atribu
 
 IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valor que pode variar de 0 a 10).
 
-# Canvas analítico (1/2 OK LE)
+# Canvas analítico
 
 (no Canvas analítico, as seções de 4 a 7 já poderiam ter sido preenchidas com hipóteses identificadas até este momento. Por exemplo: a seção de implementação já poderia sugerir algoritmos identificados no levantamento do estado da arte que tiveram bons resultados e que são bons “candidatos” para serem utilizados na abordagem de vocês.)
 
@@ -175,7 +175,9 @@ IDESP_AF - Um decimal que define a nota, por escola, de alfabetização (um valo
 
 Figura 6 - Canvas Analítico.
 
-# Referências (Todos)
+# Referências
+
+CARVALHO, J.; CRUZ, L.; GOUVEIA, R. Descoberta de Conhecimento com Aprendizado de Máquina Supervisionado em Dados Abertos dos Censos da Educação Básica e Superior. Anais dos Workshops do Congresso Brasileiro de Informática na Educação, v. 6, n. 1, p. 674, 27 out. 2017.
 
 CENTRO DE REFERÊNCIAS EM EDUCAÇÃO INTEGRAL. Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
 
@@ -189,7 +191,13 @@ GOVERNO DO ESTADO DE SÃO PAULO. Dados Educacionais - Portal da Transparência. 
 
 GOVERNO DO ESTADO DE SÃO PAULO. IDESP - Índice de Desenvolvimento da Educação do Estado de São Paulo. Disponível em: <http://idesp.edunet.sp.gov.br/>. Acesso em: 06 de mar. de 2024.
 
+GUSMÃO, R. P.; GUSMÃO, C. S. D.; DIAS, M. S. S. A qualidade da educação para além do IDEB: Um estudo através de técnicas de Mineração de Dados. Disponível em: <https://sol.sbc.org.br/index.php/sbie/article/view/18108>. Acesso em: 6 maio. 2024.
+
 HOTA, Swarna Prava. Education infrastructure, expenditure, enrollment & economic development in Odisha, India. International Journal of Educational Development, v. 103, p. 102903, 2023. ISSN 0738-0593. Disponível em: <https://doi.org/10.1016/j.ijedudev.2023.102903>. Acesso em: 10 de mar. de 2024.
+
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA – IBGE. Pesquisa Nacional por Amostra de Domicílios Contínua: características gerais dos domicílios e dos moradores 2022. Rio de Janeiro: IBGE, 2023. Disponível em: https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/070903d82038130a93f0374ada39f81d.pdf. Acesso em: 2 jun. 2024.
+
+INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA – INEP. Apresentação coletiva dos resultados do Censo Escolar 2023. Brasília: INEP, 2023. Disponível em: https://download.inep.gov.br/censo_escolar/resultados/2023/apresentacao_coletiva.pdf. Acesso em: 2 jun. 2024.
 
 NAÇÕES UNIDAS. ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: 06 de mar. de 2024.
 
@@ -201,11 +209,3 @@ Schneider, G.; Frantz, M. G.; Alves, T. Infraestrutura das escolas públicas no 
 Acesso em: 07 de abr. de 2024.
 
 VASCONCELOS, Joyciane Coelho et al. Infraestrutura escolar e investimentos públicos em Educação no Brasil: a importância para o desempenho educacional. Ensaio: aval. pol. públ. educ., Rio de Janeiro, v. 29, n. 113, p. 874-898, out. 2021. Disponível em: <http://educa.fcc.org.br/scielo.php?script=sci_arttext&pid=S0104-40362021000400874&lng=pt&nrm=iso>. Acesso em: 10 mar. 2024.
-
-INEP https://download.inep.gov.br/censo_escolar/resultados/2023/apresentacao_coletiva.pdf
-
-IBGE https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/070903d82038130a93f0374ada39f81d.pdf
-
-CARVALHO, J.; CRUZ, L.; GOUVEIA, R. Descoberta de Conhecimento com Aprendizado de Máquina Supervisionado em Dados Abertos dos Censos da Educação Básica e Superior. Anais dos Workshops do Congresso Brasileiro de Informática na Educação, v. 6, n. 1, p. 674, 27 out. 2017.
-
-GUSMÃO, R. P.; GUSMÃO, C. S. D.; DIAS, M. S. S. A qualidade da educação para além do IDEB: Um estudo através de técnicas de Mineração de Dados. Disponível em: <https://sol.sbc.org.br/index.php/sbie/article/view/18108>. Acesso em: 6 maio. 2024.
