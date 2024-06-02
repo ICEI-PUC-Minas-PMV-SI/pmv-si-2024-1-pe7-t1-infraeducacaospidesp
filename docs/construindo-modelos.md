@@ -2,7 +2,19 @@
 Justificar a definição / diferença da questão de pesquisa
 
 ## Tipos de dados do dataset
-Qual o tipo de cada um dos atributos?
+
+O dataset utilizado para construção dos modelos de aprendizado de máquina deste projeto possui os atributos descritos na tabela a seguir, que apresenta os seus respectivos tipos de dados e a descrição da informação correspondente.
+
+| Atributo         | Informação correspondente | Tipo de dado |
+|  :----:   | ----------- | ----------- |
+| BANHEIROS        | quantidade de banheiros da escola | Inteiro |
+| COZINHA        | quantidade de cozinhas | Inteiro |
+| LABORATORIO        | quantidade de laboratórios | Inteiro |
+| ESPORTE        | quantidade de quadras de esporte | Inteiro |
+| SALAS DE AULA        | quantidade de salas de aula | Inteiro |
+| OUTROS        | quantidade de outros itens de infraestrutura | Inteiro |
+| IDESP_AF        | nota da escola para os anos finais do ensino fundamental| Valor númerico contínuo |
+| CLASSIFICACAO_NOTA        | classe a qual a nota da escola pertence | Valor categorico |
 
 # Preparação dos dados
 
