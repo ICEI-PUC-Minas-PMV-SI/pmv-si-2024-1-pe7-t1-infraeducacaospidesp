@@ -370,6 +370,32 @@ Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos dev
 
 Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos.
 
-# Pipeline de pesquisa e análise de dados
+# Pipeline de Pesquisa e Análise de Dados
 
-Em pesquisa e experimentação em sistemas de informação, um pipeline de pesquisa e análise de dados refere-se a um conjunto organizado de processos e etapas que um profissional segue para realizar a coleta, preparação, análise e interpretação de dados durante a fase de pesquisa e desenvolvimento de modelos. Esse pipeline é essencial para extrair _insights_ significativos, entender a natureza dos dados e, construir modelos de aprendizado de máquina eficazes.
+![Fluxograma do Pipeline](img/fluxograma.png)
+
+## Passos do Processo
+
+### 1. Busca e Coleta de Dados
+
+O processo é iniciado com a busca das bases de dados necessárias no site do governo de São Paulo. Duas bases distintas são encontradas: uma contendo informações de infraestrutura por escola, como salas de aula e banheiros, e outra com as notas por escola.
+
+### 2. Integração de Dados
+
+Identificadas as bases necessárias, realiza-se a integração das mesmas, utilizando o código de cada escola como uma "chave estrangeira". Isso permite a unificação de todas as informações relevantes em uma única base de dados.
+
+### 3. Pré-processamento dos Dados
+
+Nesta etapa, ocorre o pré-processamento dos dados, com a remoção de atributos desnecessários da base, como "IDESP_EM", "IDESP_AI", "COD_ESC", "ANO_APLICACAO", "DTCADASTRO" e "DT_UPDATE", uma vez que o foco é exclusivamente na nota do IDESP de alfabetização (IDESP_AF).
+
+### 4. Categorização das Notas
+
+Com o objetivo de facilitar a aplicação de modelos de classificação, procede-se à categorização das notas do IDESP. Isso transforma as notas em classes discretas, facilitando a análise e o treinamento dos modelos.
+
+### 5. Desenvolvimento de Modelos
+
+São desenvolvidos cinco modelos para prever a nota do IDESP de alfabetização das escolas. Estes incluem modelos de regressão, Naive Bayes, Árvore de Decisão, Adaboost e Regras de Associação. O modelo de regressão é treinado com as notas sem categorização, enquanto os demais são treinados com as notas categorizadas.
+
+### 6. Análise dos Modelos
+
+Com os modelos treinados e os resultados obtidos, procede-se à análise de cada modelo. Avaliam-se sua precisão, sensibilidade e outras métricas relevantes para determinar sua eficácia na previsão das notas do IDESP de alfabetização.
