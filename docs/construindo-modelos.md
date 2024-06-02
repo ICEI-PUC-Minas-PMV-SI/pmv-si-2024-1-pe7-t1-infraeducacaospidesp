@@ -32,6 +32,149 @@ Foram utilizadas bibliotecas populares como pandas, sklearn, shap, matplotlib, s
 Após todo o treino dos modelos, realizamos uma análise detalhada dos dados obtidos, ajustamos modelos preditivos e extraímos regras de associação.
 Os modelos finais, após esses processos, serão apresentados a seguir.
 
+## Modelo Classificador de Árvore de Decisão, Classificador AdaBoost e Regras de Associação
+
+Esses modelos foram escolhidos, para o arquivo "analise_arvore.py", baseando-se no fato de que, em um muitas análises, eles são usados para tomada de decisão, como seria o fato da tomada de decisão de investir-se mais em infraestrutura das escolas, e por preverem, comumente, valores numéricos com precisão, além desses fatores, por estre projeto se tratar de um projeto vaseado em fundamentos explicados durante um semestre letivo, havia o interesse em aplicar regras já vistas nos materiais de estudo do curso.
+O modelo final foi baseado nos trabalhos de Pedregosa et al. (2011), Lundberg & Lee (2017) e Agrawal, Imieliński & Swami (1993).
+
+### Importação das bibliotecas necessárias
+
+Inicialmente, foram importadas as bibliotecas necessárias para manipulação e análise de dados, construção de modelos preditivos, visualização e interpretação de resultados.
+
+    import pandas as pd
+    import shap
+    import matplotlib.pyplot as plt
+    from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_auc_score, confusion_matrix
+    from sklearn.model_selection import train_test_split
+    from sklearn.model_selection import cross_val_score
+    from sklearn.preprocessing import LabelEncoder
+    from sklearn.ensemble import AdaBoostClassifier
+    from sklearn.tree import DecisionTreeClassifier
+    from mlxtend.frequent_patterns import apriori, association_rules
+    import seaborn as sns
+    from sklearn.model_selection import GridSearchCV
+    from sklearn.tree import plot_tree
+
+### Carregamento, Visualização Inicial e preparação dos Dados:
+
+Depois das importações, foram feitos os seguintes processos:
+
+Carregamoento do dataset a partir de um arquivo CSV (disponibilizado no repositório) e realização das visualizações iniciais para permitir o entendimento da estrutura dos dados 'resultados_completos_classificados.csv';
+
+Preparação dos dados para a modelagem, com a codificação da variável target CLASSIFICACAO_NOTA em valores numéricos e a separação das features (X) e da target (y).
+
+    X = df.drop(['IDESP_AF', 'CLASSIFICACAO_NOTA'], axis=1)
+    y = df['CLASSIFICACAO_NOTA']
+
+### Divisão do Conjunto de Dados
+
+Depois, os dados foram divididos em conjuntos de treinamento e teste, selecionando 80% dos dados para treino e 20% para teste.
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+### Construção e Avaliação do Modelo de Árvore de Decisão
+
+Posteriormente, um modelo de Árvore de Decisão foi inicializado e treinado, avaliando-se sua acurácia.
+
+    model = DecisionTreeClassifier(random_state=42, max_depth=5)
+    model.fit(X_train, y_train)
+    predictions = model.predict(X_test)
+    accuracy = accuracy_score(y_test, predictions)
+
+### Ajuste de Hiperparâmetros
+
+Foi realuzado o ajuste de hiperparâmetros utilizando GridSearchCV para encontrar a melhor combinação de parâmetros.
+
+    param_grid = {
+        'max_depth': [5, 10, 15, 20],
+        'min_samples_split': [2, 5, 10],
+        'min_samples_leaf': [1, 2, 4]
+    }
+    grid_search = GridSearchCV(estimator=DecisionTreeClassifier(random_state=42), param_grid=param_grid, cv=5, scoring='accuracy')
+    grid_search.fit(X_train, y_train)
+    best_params = grid_search.best_params_
+
+### Avaliação do Modelo Otimizado
+
+Foi realizado o Re-treino do modelo de Árvore de Decisão com os melhores hiperparâmetros e foi reavaliada a sua acurácia.
+
+    best_model = DecisionTreeClassifier(**best_params, random_state=42)
+    best_model.fit(X_train, y_train)
+    predictions = best_model.predict(X_test)
+    accuracy = accuracy_score(y_test, predictions)
+
+### Visualização e Interpretação do Modelo
+
+![Figura 8 - Árvore de Decisão ](./img/arvore1.png)
+
+Figura 8 - Árvore de Decisão
+
+![Figura 9 - Shap1 ](./img/shap1.png)
+
+Figura 9 - Shap tipo 1
+
+![Figura 10 - Shap2 ](./img/shap2.png)
+
+Figura 10 - Shap tipo 2
+
+Foram feitos a Plotagem da árvore de decisão e os calculos dos SHAP values para interpretação.
+
+    plt.figure(figsize=(10,20))
+    plot_tree(best_model, feature_names=X_train.columns, class_names=y_train.unique(), filled=True, fontsize=10)
+    plt.show()
+    explainer = shap.TreeExplainer(best_model)
+    shap_values = explainer.shap_values(X_test)
+    shap.summary_plot(shap_values, X_test, plot_size=(15, 8), max_display=7)
+
+### Cálculo de Métricas de Desempenho
+
+Foram calculadas várias métricas de desempenho, incluindo acurácia, precisão, recall e F1 Score.
+
+    accuracy = accuracy_score(y_test, predictions)
+    precision = precision_score(y_test, predictions, average='weighted')
+    recall = recall_score(y_test, predictions, average='weighted')
+    f1 = f1_score(y_test, predictions, average='weighted')
+
+### Plotagem da Matriz de Confusão (img matrizC1)
+
+Foi plotada a matriz de confusão para avaliar o desempenho do modelo.
+
+    plt.figure(figsize=(8, 6))
+    cm = confusion_matrix(y_test, predictions)
+    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=y_train.unique(), yticklabels=y_train.unique())
+    plt.title('Matriz de Confusão - Conjunto de Teste')
+    plt.show()
+
+### Modelagem com AdaBoost
+
+![Figura 11 - Matriz ](./img/matrizC2.png)
+
+Figura 11 - Matriz
+
+O modelo AdaBoost com uma Árvore de Decisão como base estimator e realizamos a validação cruzada foi inicializado.
+
+    base_estimator = DecisionTreeClassifier(max_depth=1, random_state=42)
+    ada_model = AdaBoostClassifier(estimator=base_estimator, n_estimators=50, random_state=42)
+    ada_model.fit(X_train, y_train)
+    y_pred = ada_model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, average='weighted')
+    recall = recall_score(y_test, y_pred, average='weighted')
+    f1 = f1_score(y_test, y_pred, average='weighted')
+
+### Mineração de Dados com Apriori
+
+![Figura 12 - Shap2 ](./img/regras1.png)
+
+Figura 12 - Regras
+
+Foi aplicado, ao fim, o algoritmo Apriori para calcular itens frequentes e gerar regras de associação
+
+    infra_cols = ['BANHEIROS', 'COZINHA', 'LABORATORIO', 'ESPORTE', 'SALAS DE AULA', 'LEITURA', 'OUTROS']
+    df_bin = df[infra_cols].applymap(lambda x: 1 if x > 0 else 0)
+    frequent_items = apriori(df_bin, min_support=0.1, use_colnames=True)
+    rules = association_rules(frequent_items, metric="lift", min_threshold=1.0)
+
 ## Modelo de Regressão Linear Múltipla
 
 Esse modelo foi escolhido baseando-se em análises feitas por Nepal(2016), que estipulou um bom resultado nas análises feitas entre infraestruturas de escolas e os resultados dos alunos, uma vez que, nesse estudo, ele usou a regressão múltipla para treinar o seu modelo.
