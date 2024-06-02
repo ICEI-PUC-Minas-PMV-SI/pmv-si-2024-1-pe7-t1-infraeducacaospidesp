@@ -34,7 +34,7 @@ Os modelos finais, após esses processos, serão apresentados a seguir.
 
 ## Modelo Classificador de Árvore de Decisão, Classificador AdaBoost e Regras de Associação
 
-Esses modelos foram escolhidos, para o arquivo "analise_arvore.py", baseando-se no fato de que, em um muitas análises, eles são usados para tomada de decisão, como seria o fato da tomada de decisão de investir-se mais em infraestrutura das escolas, e por preverem, comumente, valores numéricos com precisão, além desses fatores, por estre projeto se tratar de um projeto vaseado em fundamentos explicados durante um semestre letivo, havia o interesse em aplicar regras já vistas nos materiais de estudo do curso.
+Esses modelos foram escolhidos, para o arquivo "analise_arvore.py", baseando-se no fato de que, em um muitas análises, eles são usados para tomada de decisão, como seria o fato da tomada de decisão de investir-se mais em infraestrutura das escolas, e por preverem, comumente, valores numéricos com precisão, além desses fatores, por estre projeto se tratar de um projeto baseado em fundamentos explicados durante um semestre letivo, havia o interesse em aplicar regras já vistas nos materiais de estudo do curso.
 O modelo final foi baseado nos trabalhos de Pedregosa et al. (2011), Lundberg & Lee (2017) e Agrawal, Imieliński & Swami (1993).
 
 ### Importação das bibliotecas necessárias
@@ -359,6 +359,78 @@ Nessa parte, é feita uma predição com novos dados fornecidos manualmente(usam
 
     Classificacao_Nota_Index= mlr.predict([[3,3,2,2,18,1,8]])
     print(Classificacao_Nota_Index)
+
+## Análise Naïve Bayes
+
+Esse modelo foi escolhido baseando-se nos artigos presentes no estado da arte deste projeto de pesquisa, levando-se em consideração a necessidade de aderência dos textos escolhidos com as análises aqui selecionadas.
+
+O modelo final foi de autoria própria do grupo.
+
+### Importaçao das bibliotecas
+
+Inicialmente, foram importadas as bibliotecas necessárias para manipulação e análise de dados, construção de modelos preditivos, visualização e interpretação de resultados, como o que já foi visto nos demais modelos;
+
+    import pandas as pd from sklearn.model_selection
+    import train_test_split from sklearn.naive_bayes
+    import GaussianNB from sklearn.metrics
+    import accuracy_score, classification_report, confusion_matrix
+
+### Carregamento e Visualização dos Dados
+
+O conjunto de dados foi carregado a partir de um arquivo CSV. A visualização inicial dos dados foi realizada para assegurar que a importação ocorreu corretamente.
+
+    df = pd.read_csv('resultados_completos_classificados.csv')
+    print(df.head())
+
+### Análise da Distribuição das Classes
+
+Realizou-se a contagem da quantidade de ocorrências das diferentes classes na variável alvo "CLASSIFICACAO_NOTA" para entender a distribuição dos dados.
+
+    class_counts = df['CLASSIFICACAO_NOTA'].value_counts().sort_index()
+    print("Quantidade de ocorrências das classes no dataset:")
+    print(class_counts)
+
+### Preparação dos Dados
+
+As features e a target foram separadas para preparar os dados para o treinamento do modelo.
+
+    X = df[['BANHEIROS', 'COZINHA', 'LABORATORIO', 'ESPORTE', 'SALAS DE AULA', 'LEITURA', 'OUTROS']]
+    y = df['CLASSIFICACAO_NOTA']
+
+### Divisão do Conjunto de Dados
+
+O conjunto de dados foi dividido em conjuntos de treinamento e teste, com 70% dos dados destinados ao treinamento e 30% ao teste.
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+### Construção e Treinamento do Modelo Naïve Bayes
+
+O modelo Naïve Bayes Gaussiano foi criado e treinado com os dados de treinamento.
+
+    nb = GaussianNB()
+    nb.fit(X_train, y_train)
+
+### Avaliação dos testes e precisão dos modelos
+
+As previsões foram realizadas no conjunto de teste e a precisão do modelo foi avaliada.
+
+    y_pred = nb.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f'Accuracy: {accuracy}')
+
+### Relatório da precisão
+
+Um relatório de classificação foi gerado para fornecer detalhes sobre a precisão, recall e F1 Score para cada classe.
+
+    print('Classification Report:')
+    print(classification_report(y_test, y_pred))
+
+### Matriz de confusão
+
+A matriz de confusão foi gerada para visualizar o desempenho do modelo em termos de classificações corretas e incorretas.
+
+    print('Confusion Matrix:')
+    print(confusion_matrix(y_test, y_pred))
 
 # Avaliação dos modelos criados
 
