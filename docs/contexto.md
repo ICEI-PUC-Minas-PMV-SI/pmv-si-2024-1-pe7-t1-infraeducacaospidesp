@@ -205,7 +205,7 @@ RAMOS, Thiago Graca; MACHADO, Jean Cristian Ferreira; CORDEIRO, Bruna Principe V
 
 SÁ, J. dos S.; WERLE, F. O. C.. Infraestrutura escolar e espaço físico em educação: o estado da arte. Cadernos De Pesquisa, v. 47, n. 164, p. 386–413, 2017. Disponível em: <https://doi.org/10.1590/198053143735>. Acesso em: 10 de mar. de 2024.
 
-Schneider, G.; Frantz, M. G.; Alves, T. Infraestrutura das escolas públicas no Brasil: desigualdades e desafios para o financiamento da educação básica. Revista Educação Básica em Foco, v. 1, n. 3, p. 1-17, out.-dez. 2020. Disponível em:<https://educacaobasicaemfoco.net.br/02/Artigos/Infraestrutura_das_escolas_publicas_no_brasil_SCHNEIDER-Gabriela_FRANTZ-Maira-Gallotti_ALVES-Thiago.pdf>
+SCHNEIDER, G.; FRANTZ, M. G.; ALVES, T. Infraestrutura das escolas públicas no Brasil: desigualdades e desafios para o financiamento da educação básica. Revista Educação Básica em Foco, v. 1, n. 3, p. 1-17, out.-dez. 2020. Disponível em:<https://educacaobasicaemfoco.net.br/02/Artigos/Infraestrutura_das_escolas_publicas_no_brasil_SCHNEIDER-Gabriela_FRANTZ-Maira-Gallotti_ALVES-Thiago.pdf>
 Acesso em: 07 de abr. de 2024.
 
 VASCONCELOS, Joyciane Coelho et al. Infraestrutura escolar e investimentos públicos em Educação no Brasil: a importância para o desempenho educacional. Ensaio: aval. pol. públ. educ., Rio de Janeiro, v. 29, n. 113, p. 874-898, out. 2021. Disponível em: <http://educa.fcc.org.br/scielo.php?script=sci_arttext&pid=S0104-40362021000400874&lng=pt&nrm=iso>. Acesso em: 10 mar. 2024.
