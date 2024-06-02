@@ -436,7 +436,9 @@ A matriz de confusão foi gerada para visualizar o desempenho do modelo em termo
 
 ## Métricas utilizadas
 
-Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído.
+EM CONSTRUÇÃO!!!
+
+Com relação às métricas definidas para determinar o nível de confiabilidade do modelo ensemble, i.e., Adaptive Boosting, que é um modelo de classificação aprimorado por árvores de decisão simples operadas iterativamente, nós observamos que ele obteve por volta de 48,87% de acerto nas previsões em face dos dados da amostra. Tal acurácia, porém, não foi suficientemente capaz de fornecer um parâmetro avaliativo superior à metade proporcional, pois houve grande assimetria no nosso conjunto de dados, o que, por sua vez, implicou em dificuldades significativas em seu treinamento. Já o exame da precisão e do recall do modelo ensemble expôs, de modo respectivo, que 47,15% e 48,87% dos dados da amostra representaram de modo fidedigno os dados reais. Ambas as métricas evidenciam que o modelo convergiu razoávelmente à realidade, o que se expressa, principalmente, por meio da pontuação do F1-Score de 0.4469, que demonstra o equilíbrio entre os falsos positivos e falsos negativos. A pontuação de ROC AUC Score de 0.6122, por fim, corroborou para consideração de que o modelo ensemble obteve um sucesso razoável de modo que se mostrou superior a um classificador aleatório.
 
 ## Discussão dos resultados obtidos
 
