@@ -432,6 +432,12 @@ A matriz de confusão foi gerada para visualizar o desempenho do modelo em termo
     print('Confusion Matrix:')
     print(confusion_matrix(y_test, y_pred))
 
+## Vídeo com a explicação dos Modelos
+
+Para um melhor entendimento do funcionamento de cada modelo, segue vídeo contendo os dados e os tratamentos feitos nos dados para o funcionamento de cada modelo:
+
+[Vídeos da apresentação dos Modelos e seus tratamentos de dados.](https://youtu.be/Wlbj_kwbqxA)
+
 # Avaliação dos modelos criados
 
 ## Métricas utilizadas
