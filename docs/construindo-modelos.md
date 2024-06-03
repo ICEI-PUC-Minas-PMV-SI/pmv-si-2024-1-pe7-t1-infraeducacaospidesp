@@ -1,6 +1,32 @@
-## Pergunta orientada a dados (???)
+## Perguntas das Aulas
 
-Justificar a definição / diferença da questão de pesquisa
+### Pensando o problema como orientado a dados, a pergunta orientada a dados é diferente da questão de pesquisa?
+
+Sim, a pergunta orientada a dados ajuda a direcionar a forma de como tratar os dados para nos trazerem respostas a estas perguntas, já a questão de pesquisa é mais direcionada a métodos de investigação sobre o que os dados falam de maneira mais simples, porém, se pode entender que a primeira é em decorrência da segunda, uma vez que a investigação nos leva ao entendimento mais profundo de como esses dados podem ser interpretados e utilizados.
+
+### Outras bases podem ser combinadas (ou são necessárias) com a base selecionada para resolver o problema identificado?
+
+Acreditamos que precisaremos de mais insumos para conseguir entender os motivos de tantos outliers nas nossas análises iniciais (quais insumos utilizar é a grande pergunta).
+
+Não sabemos se precisamos relacionar outras bases e, ao menos por enquanto, não vamos fazer isso porque acreditamos que a metodologia utilizada pode nos dar um direcionamento.
+
+### Como são os dados que serão trabalhados considerando os tipos de dados (qualitativos/quantitativos)?
+
+Nossa base possui muitos dados quantitativos, porém, a questão central abrange o fator de estrutura como um todo, e isso é um quantitativo discreto, pois poderemos explicar se uma escola com uma boa infraestrutura tem melhores notas, essa infraestrutura deve ser classificada em faixas de rating onde transformaremos os dados qualitativos em quantitativos
+
+Nota: A Estruturação disso gerará uma união dos dados e isso pode causar um tipo de erro.
+
+### Prof. Hugo citou alguma medida de estatística descritiva que não foi abordada na Etapa 02?
+
+Sim, citou.
+Inclusive, nós não realizamos intervalo nem variância ou desvio padrão, nem cálculo de interquartil.
+
+### Quais foram as técnicas de limpeza e transformação de dados utilizados?
+
+- Tentamos identificar os outliers;
+- Exclusão dos Dados faltantes (notas nos anos específicos);
+- Fizemos uma verificação por amostragem dos dados que poderiam ser desconsiderados (outras data e etc);
+- Agrupamos os atributos de infraestrutura de todos os anos com Normalização via Python.
 
 ## Tipos de dados do dataset
 
