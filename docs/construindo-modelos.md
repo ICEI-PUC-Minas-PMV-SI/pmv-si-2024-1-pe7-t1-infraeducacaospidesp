@@ -452,11 +452,18 @@ Além do exame dos modelos de classificação, nós também verificamos o grau d
 
 ## Discussão dos resultados obtidos
 
-Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos.
+Assim como mostrado no "Vídeos da apresentação dos Modelos e seus tratamentos de dados" e nas "métricas utilizadas", foi possível observar que os cinco modelos selecionados não apresentaram um bom desempenho para o tipo de dado escolhido para análise.
+
+Levando-se em consideração o problema da carência de infraestrutura e como ela pode influenciar positivamente no processo de aprendizagem do aluno, a questão proposta de como a infraestrutura escolar influencia no desempenho dos alunos de ensino fundamental nas avaliações do IDESP_AF e no objetivo de apontar a influência da infraestrutura escolar no desempenho desses alunos, pode-se concluir que os nossos resultados não trouxeram algo relevante que dê indícios mínimos de correlação entre os dados e resultados propostos inicialmente.
+Esse ponto pode ser entendido como alguns problemas de métricas adotadas, como pensamos inicialmente, porém, com a inconstância de parâmetros iguais de infraestrutura e resultados muitos distintos de notas do IDESP_AF, é viável pensar que os modelos apenas não conseguem definir um parâmetro mínimo para melhorar a acurácia nos resultados, que, no melhor dos caso, não chega a 50% de precisão.
+
+Sendo assim, analisando as métricas ruins em todos os nossos resultados, cabe colocar em destaque que os nossos modelos podem estar pouco regulados, principalmente o de regressão linear múltipla, devido a sua grande imprecisão, mas não se deve descartar a possibilidade considerável de os dados não possuírem a qualidade adequada para qualquer outro modelo de análise, ainda que devidamente regulado.
 
 # Pipeline de Pesquisa e Análise de Dados
 
 ![Fluxograma do Pipeline](img/fluxograma.png)
+
+Fluxo 1 - Fluxograma do Pipeline
 
 ## Introdução
 
