@@ -177,6 +177,8 @@ Figura 6 - Canvas Analítico.
 
 # Referências
 
+AGRAWAL, R.; IMIELIŃSKI, T.; SWAMI, A. Mining association rules between sets of items in large databases. ACM SIGMOD Record, v. 22, n. 2, p. 207-216, 1993. Disponível em: https://dl.acm.org/doi/10.1145/170036.170072. Acesso em: 01 jun. 2024.
+
 CARVALHO, J.; CRUZ, L.; GOUVEIA, R. Descoberta de Conhecimento com Aprendizado de Máquina Supervisionado em Dados Abertos dos Censos da Educação Básica e Superior. Anais dos Workshops do Congresso Brasileiro de Informática na Educação, v. 6, n. 1, p. 674, 27 out. 2017.
 
 CENTRO DE REFERÊNCIAS EM EDUCAÇÃO INTEGRAL. Infraestrutura influencia qualidade da educação. Disponível em: <https://educacaointegral.org.br/reportagens/infraestrutura-influencia-qualidade-da-educacao/>. Acesso em: 06 de mar. de 2024.
@@ -199,7 +201,11 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA – IBGE. Pesquisa Nacional por
 
 INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA – INEP. Apresentação coletiva dos resultados do Censo Escolar 2023. Brasília: INEP, 2023. Disponível em: https://download.inep.gov.br/censo_escolar/resultados/2023/apresentacao_coletiva.pdf. Acesso em: 2 jun. 2024.
 
+LUNDBERG, S. M.; LEE, S. I. A Unified Approach to Interpreting Model Predictions. Advances in Neural Information Processing Systems, 2017. Disponível em: https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf. Acesso em: 01 jun. 2024.
+
 NAÇÕES UNIDAS. ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: 06 de mar. de 2024.
+
+PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, v. 12, p. 2825-2830, 2011. Disponível em: http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html. Acesso em: 01 jun. 2024.
 
 RAMOS, Thiago Graca; MACHADO, Jean Cristian Ferreira; CORDEIRO, Bruna Principe Vieira. Primary Education Evaluation in Brazil Using Big Data and Cluster Analysis. Procedia Computer Science, v. 55, p. 1031-1039, 2015. ISSN 1877-0509. Disponível em: <https://doi.org/10.1016/j.procs.2015.07.061>. Acesso em: 10 mar. 2024.
 
