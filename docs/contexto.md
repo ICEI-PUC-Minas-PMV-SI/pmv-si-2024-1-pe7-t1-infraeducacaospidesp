@@ -36,14 +36,13 @@ Experimentar modelos de aprendizado de máquina adequados para apontar a influê
 
 ## Justificativa
 
-A educação faz parte da lista principal de direitos humanos fundamentais e como item tão importante para o desenvolvimento de uma sociedade, a busca por sua universalização com qualidade é um objetivo a ser buscado pelo estado, pela população e também pela iniciativa privada. A busca de uma maior compreensão sobre os fatores que influenciam melhores resultados na educação mostra sua importância quando são analisados indicadores como o percentual de jovens em pobreza extrema e pobreza, dentro os que não estudam e não trabalham que corresponde a 14,8% e 61,2% respectivamente (IBGE,2024). Esse grupo pode representar um dos maiores desafios para a mobilidade socio-econômico da sua população e evolução da sua qualidade de vida, já que sem uma educação adequada dificulta-se o ingresso no mercado de trabalho. 
+A educação faz parte da lista principal de direitos humanos fundamentais e como item tão importante para o desenvolvimento de uma sociedade, a busca por sua universalização com qualidade é um objetivo a ser buscado pelo estado, pela população e também pela iniciativa privada. A busca de uma maior compreensão sobre os fatores que influenciam melhores resultados na educação mostra sua importância quando são analisados indicadores como o percentual de jovens em pobreza extrema e pobreza, dentro os que não estudam e não trabalham que corresponde a 14,8% e 61,2% respectivamente (IBGE,2024). Esse grupo pode representar um dos maiores desafios para a mobilidade socio-econômico da sua população e evolução da sua qualidade de vida, já que sem uma educação adequada dificulta-se o ingresso no mercado de trabalho.
 
-Buscar formas de identificar fatores que influenciam o sucesso dos resultados educacionais pode auxiliar a criação de políticas públicas que efetivamente possam melhorar indicadores negativos como a taxa de abandono escolar dos jovens de 15 a 29 anos. Esse indicador teve o resultado de 65,7% apresentado no relatório do IBGE publicado em 2024, esse foi o percentual de jovens dessa faixa etária que deixaram a educação básica incompleta e não chegaram a frequentar o ensino médio, representando 9,8 milhões de jovens brasileiros em números absolutos. 
+Buscar formas de identificar fatores que influenciam o sucesso dos resultados educacionais pode auxiliar a criação de políticas públicas que efetivamente possam melhorar indicadores negativos como a taxa de abandono escolar dos jovens de 15 a 29 anos. Esse indicador teve o resultado de 65,7% apresentado no relatório do IBGE publicado em 2024, esse foi o percentual de jovens dessa faixa etária que deixaram a educação básica incompleta e não chegaram a frequentar o ensino médio, representando 9,8 milhões de jovens brasileiros em números absolutos.
 
 Para esse projeto foi selecionada a avaliação dos alunos dos anos finais do ensino fundamental do estado de São Paulo, medida pela nota do IDESP_AF. Ao concentrar o escopo do estudo na avaliação da rede estadual, foi possível trazer um olhar mais atento para a educação pública, utilizando uma base de dados de fácil acesso e com dados atualizados em 2023, como foi o caso da base de dados do portal da transparência de São Paulo. Trazer um olhar mais atento para o contexto da educação pública estadual é justificado pelo impacto que a mesma apresenta para os estudantes dos anos finais do ensino fundamental, que no estado pesquisado compreendia a 55,6% da população estudantil dessas séries (INEP,2023).
 
 Entender o impacto da infraestrutura das escolas estaduais nos resultados obtidos pelos seus alunos pode trazer percepções importantes para a comunidade escolar e para os agentes públicos responsáveis pelos investimentos na área, gerando uma melhor destinação de recursos para influenciar positivamente os índices dos próximos anos
-
 
 ## Público-Alvo
 
@@ -121,7 +120,7 @@ Por último, o estudo de Swarna Prava Hota (2023) buscou compreender duas dimens
 
 Esses estudos, portanto, contribuem significativamente para o entendimento da relação entre infraestrutura escolar, investimentos em educação e qualidade do ensino, fornecendo insights importantes para formuladores de políticas, pesquisadores e profissionais da área educacional.
 
-# Descrição do _dataset_ selecionado 
+# Descrição do _dataset_ selecionado
 
 ### Dataset: Portal da Transparência da Educação do Governo do Estado de São Paulo
 
@@ -195,6 +194,8 @@ GOVERNO DO ESTADO DE SÃO PAULO. IDESP - Índice de Desenvolvimento da Educaçã
 
 GUSMÃO, R. P.; GUSMÃO, C. S. D.; DIAS, M. S. S. A qualidade da educação para além do IDEB: Um estudo através de técnicas de Mineração de Dados. Disponível em: <https://sol.sbc.org.br/index.php/sbie/article/view/18108>. Acesso em: 6 maio. 2024.
 
+HARIHARAN, R. Student Performance - Multiple Linear Regression, Kaggle, 2024. Disponível em: https://www.kaggle.com/code/rameshariharan/student-performance-multiple-linear-regression. Acessado em 17 de mai. 2024.
+
 HOTA, Swarna Prava. Education infrastructure, expenditure, enrollment & economic development in Odisha, India. International Journal of Educational Development, v. 103, p. 102903, 2023. ISSN 0738-0593. Disponível em: <https://doi.org/10.1016/j.ijedudev.2023.102903>. Acesso em: 10 de mar. de 2024.
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA – IBGE. Pesquisa Nacional por Amostra de Domicílios Contínua: características gerais dos domicílios e dos moradores 2022. Rio de Janeiro: IBGE, 2023. Disponível em: https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/070903d82038130a93f0374ada39f81d.pdf. Acesso em: 2 jun. 2024.
@@ -204,6 +205,8 @@ INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA – INEP
 LUNDBERG, S. M.; LEE, S. I. A Unified Approach to Interpreting Model Predictions. Advances in Neural Information Processing Systems, 2017. Disponível em: https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf. Acesso em: 01 jun. 2024.
 
 NAÇÕES UNIDAS. ODS 4 - Educação de qualidade. Disponível em: <https://brasil.un.org/pt-br/sdgs/4>. Acesso em: 06 de mar. de 2024.
+
+NEPAL, B.Relationship Among School's Infrastructure Facilities, Learning Environment and Student's Outcome. Journal of Educational Research and Development, 4(2), 45-56, 2016. Disponível em: https://www.researchgate.net/publication/326539338_RELATIONSHIP_AMONG_SCHOOL'S_INFRASTRUCTURE_FACILITIES_LEARNING_ENVIRONMENT_AND_STUDENT'S_OUTCOME. Acesso em: 17 mai. 2024.
 
 PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, v. 12, p. 2825-2830, 2011. Disponível em: http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html. Acesso em: 01 jun. 2024.
 
