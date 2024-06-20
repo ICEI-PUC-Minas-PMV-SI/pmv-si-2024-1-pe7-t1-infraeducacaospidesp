@@ -5,6 +5,8 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+from sklearn.metrics import accuracy_score
+import joblib
 
 df = pd.read_csv('resultados_completos_classificados.csv')
 
@@ -72,6 +74,24 @@ print("Coefficients:")
 list(zip(x, mlr.coef_))
 
 y_pred_mlr= mlr.predict(x_test)
+
+# Definir um limiar de erro (por exemplo, 0.5)
+limiar_erro = 0.5
+
+# Converter previsões em valores binários (correto/incorreto)
+y_pred_binario = np.abs(y_pred_mlr - y_test) < limiar_erro
+
+# Converter y_test para binário (verdadeiro, todos são corretos)
+y_test_binario = np.ones_like(y_test, dtype=bool)
+
+# Calcular a "acurácia"
+accuracy = accuracy_score(y_test_binario, y_pred_binario)
+
+dump_modelo = {
+    'modelo': mlr,
+    'accuracy': accuracy
+}
+joblib.dump(dump_modelo, 'web/modelo_treinado_linear_regression.pkl')
 
 print(y_pred_mlr)
 

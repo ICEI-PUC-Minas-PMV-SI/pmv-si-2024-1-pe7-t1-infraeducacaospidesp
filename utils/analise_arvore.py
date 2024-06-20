@@ -10,6 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 from mlxtend.frequent_patterns import apriori, association_rules
 import seaborn as sns
+import joblib
 
 df=pd.read_csv('resultados_completos_classificados.csv')
 
@@ -92,6 +93,12 @@ predictions = best_model.predict(X_test)
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test, predictions)
 print("Accuracy:", accuracy)
+
+dump_modelo = {
+    'modelo': best_model,
+    'accuracy': accuracy
+}
+joblib.dump(dump_modelo, 'web/modelo_treinado_decision_tree_classifier.pkl')
 
 from sklearn.tree import plot_tree
 import matplotlib.pyplot as plt
@@ -180,6 +187,12 @@ precision = precision_score(y_test, y_pred, average='weighted')
 recall = recall_score(y_test, y_pred, average='weighted')
 f1 = f1_score(y_test, y_pred, average='weighted')
 conf_matrix = confusion_matrix(y_test, y_pred)
+
+dump_modelo = {
+    'modelo': ada_model,
+    'accuracy': accuracy
+}
+joblib.dump(dump_modelo, 'web/modelo_treinado_ada_boost_classifier.pkl')
 
 # Armazenar as métricas em um dicionário
 metrics_dict = {

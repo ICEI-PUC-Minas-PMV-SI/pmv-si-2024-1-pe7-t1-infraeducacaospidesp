@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import joblib
 
 # Carregar os dados
 df = pd.read_csv('resultados_completos_classificados.csv')
@@ -35,6 +36,14 @@ y_pred = nb.predict(X_test)
 # Avaliar a precisão do modelo
 accuracy = accuracy_score(y_test, y_pred)
 print(f'Accuracy: {accuracy}')
+
+# Salva o modelo treinando em um arquivo
+dump_modelo = {
+    'modelo': nb,
+    'accuracy': accuracy
+}
+joblib.dump(dump_modelo, 'web/modelo_treinado_gaussian_nb.pkl')
+
 
 # Gerar o relatório de classificação
 print('Classification Report:')
