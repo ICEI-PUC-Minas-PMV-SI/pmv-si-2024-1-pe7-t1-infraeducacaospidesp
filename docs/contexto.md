@@ -17,7 +17,7 @@ Neste contexto, nosso estudo se concentra na análise da infraestrutura educacio
 
 ## Questão de Pesquisa
 
-Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho dos alunos nos anos finais do ensino fundamental (5ª a 8ª séries), medido pelo IDESP_AF. O objetivo é compreender como o ambiente escolar influencia a alfabetização, visando melhorar a qualidade da educação.
+Estudos destacam o impacto da infraestrutura escolar no rendimento dos alunos, podendo prejudicar o processo de ensino e desmotivar os estudantes. Esta pesquisa busca analisar a relação entre a qualidade da infraestrutura escolar e o desempenho dos alunos nos anos finais do ensino fundamental (5ª a 8ª séries), medido pelo IDESP_AF. O objetivo é compreender como o ambiente escolar influencia os resultados acadêmicos, visando melhorar a qualidade da educação.
 
 **Pergunta de Pesquisa:** Como a infraestrutura escolar influencia o desempenho dos alunos nos anos finais do ensino fundamental (5ª a 8ª séries), de acordo com a avaliação do IDESP_AF?
 
