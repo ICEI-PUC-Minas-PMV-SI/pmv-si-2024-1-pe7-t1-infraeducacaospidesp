@@ -1,11 +1,10 @@
-# ANÁLISE DA INFLUÊNCIA DA INFRAESTRUTURA ESCOLAR NA ALFABETIZAÇÃO DOS ALUNOS DE ESCOLAS PÚBLICAS COM BASE NAS NOTAS DO IDESP
+# ANÁLISE DA INFLUÊNCIA DA INFRAESTRUTURA ESCOLAR NAS NOTAS DO IDESP-AF DE ESCOLAS PÚBLICAS DO ESTADO DE SÃO PAULO
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Pesquisa e Experimentação em Sistemas de Informação`
 
 `SEMESTRE: 7º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
