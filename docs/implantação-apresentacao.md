@@ -201,3 +201,204 @@ Os dados aqui apresentados estão presentes no Back-End do projeto, que foi impl
         app.run(debug=True)
 
 - Verificação de que o script está sendo executado diretamente e, se sim, inicialização da aplicação Flask no modo debug.
+
+## Front-End
+
+Para implementar o Front-End da aplicação, foram usadas as seguintes tecnologias:
+
+- HTML 5;
+- CSS3;
+- Biblioteca de CSS e JS Bootstrap;
+- Conjunto de ícones para uso junto com o Bootstrap, o Bootstrap Icons;
+- Motor de templates do Flask para renderização dinâmica do HTML, o Jinja2;
+- Microframework web Flask, em Python.
+
+### Detalhamento do Projeto
+
+Os dados a seguir estão presentes no arquivos do Front-End do projeto, representado pelo arquivo principal "form.html" (juntamente com ele, implementado por definições do "bootstrap.min.css" e "bootstrap-icons.min.css" também presentes no projeto).
+
+#### Inicialização do Projeto/ Configurações de entrada
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simulação dos dados treinados</title>
+
+- Definição do tipo de documento como HTML5;
+- Definição do elemento raiz do documento HTML, com o atributo lang definido como "en" para indicar que o conteúdo está em inglês;
+- Implementação do cabeçalho do documento, onde são incluídas metadados e links para arquivos externos;
+- Definição da codificação de caracteres do documento como UTF-8;
+- Configuração da visualização para dispositivos móveis, definindo a largura da página como igual à largura da tela do dispositivo e o nível de zoom inicial como 1.0;
+- Definição do título da página que será exibido na aba do navegador, mais especificamente "Simulação dos dados treinados".
+
+#### Link para arquivos externos
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+- Link para o arquivo CSS do Bootstrap, sendo que o "{{ url_for('static', filename='css/bootstrap.min.css') }}" é uma função do Flaskpara gerar a URL do arquivo estático;
+- Link para um arquivo CSS que inclui ícones do Bootstrap Icons, hospedado em uma CDN.
+
+#### Definindo configurações de tela e divisões
+
+    <body>
+        <div class="container" style="">
+            <main>
+                <div class="py-5 text-center">
+                    <h2>Previsão da nota IDESP-AF da escola com base na infraestrutura</h2>
+                    <p class="lead">Previsão baseada em 4 modelos previamente treinados. Preencha os campos abaixo e clique em "Enviar" para obter a previsão.</p>
+                    <p></p>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-4 col-lg-3 order-md-last">
+
+- Inicia corpo do documento HTML, onde o conteúdo visível da página fica;
+- Criação de um contêiner fluido com margens e preenchimento, utilizando a classe container do Bootstrap;
+- Insere um wlemento HTML5 que indica o conteúdo principal da página;
+- Criação de uma seção com padding vertical "py-5", com alinhamento do texto ao centro (text-center);
+- Criação de um cabeçalho de nível 2 com o título da página, que é "Previsão da nota IDESP-AF da escola com base na infraestrutura";
+- Inclusão de classe lead do Bootstrap, que estiliza o texto como destaque;
+- Criação de uma linha "row" com um espaçamento "g-5" entre os elementos filhos;
+- Definição de uma coluna que ocupa 4 unidades em telas médias e 3 unidades em telas grandes, sendo exibida por último em telas médias e superiores.
+
+#### Bloco condicional
+
+                        {% if previsoes %}
+                        <div class="d-flex align-items-center p-3 my-3 text-white rounded shadow-sm" style="background-color: var(--bs-success);">
+                            <div class="rounded me-3" style="height: 50px;
+                            min-width: 50px;
+                            background-color: #fff;
+                            padding: 15px;
+                            padding-top: 3px;
+                            font-size: 1.8rem;
+                            font-weight: 700;"><span style="color: {{ cor_previsao }};">{{melhor_previsao}}</span></div>
+                            <div class="lh-1" style="border-left: 1px solid #ffffff59;
+                            padding-left: 10px;">
+                            <h1 class="h6 mb-0 text-white lh-1">Nota prevista</h1>
+                            <br/>
+                            <small>{{descricao_politica}}</small>
+                            </div>
+                        </div>
+                        {% endif %}
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="">Previsões</span>
+                        </h4>
+                        {% if previsoes %}
+                        <ul class="list-group mb-3">
+                            {% for previsao in previsoes %}
+                            {% if previsao.previsao == melhor_previsao %}
+                            <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                                <div class="text-success">
+                                <h6 class="my-0">{{ previsao.nome }}</h6>
+                                <small class="text-body-secondary">{{ previsao.detalhe }}</small>
+                                </div>
+                                <span class="fw-bolder badge text-bg-success p-3"> {{ previsao.previsao }}</span>
+                            </li>
+                            {% else %}
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                <h6 class="my-0">{{ previsao.nome }}</h6>
+                                <small class="text-body-secondary">{{ previsao.detalhe }}</small>
+                                </div>
+                                <span class="fw-bolder badge text-bg-light p-3">{{ previsao.previsao }}</span>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="lead mb-3" style="font-size: 1rem;">Nenhuma previsão calculada...</p>
+                        {% endif %}
+
+                    </div>
+
+- Inicialização um bloco condicional em "Jinja2" (motor de templates do Flask), verificando se a variável "previsoes" está definida;
+- Inclusão de uma divisão com várias classes Bootstrap para alinhamento flexível, padding, margem, texto branco, cantos arredondados e sombra. O background-color usa uma variável CSS para definir a cor de fundo;
+- Inclusão de uma divisão com estilo inline e conteúdo dinâmico usando variáveis do Flask/"Jinja2" para exibir a melhor previsão com uma cor específica;
+- Configura o cabeçalho de nível 1 estilizado como h6 do Bootstrap;
+- Inclui uma lista não ordenada com a classe "list-group" do Bootstrap para estilizar como um grupo de itens;
+- Inicialização de um loop for em "Jinja2" para iterar sobre cada "previsao" na lista "previsoes";
+- Inclusão de item da lista com classes Bootstrap para flexbox e espaçamento entre itens, e cor de fundo alternativa.
+
+#### Inclusão de itens de formulário
+
+                    </div>
+                    <div class="col-md-4 col-lg-6">
+                        <h4 class="mb-3">Infraestrutura</h4>
+                        <form action="/predict" method="POST" class="row g-3">
+                            <div class="form-group col-md-4">
+                                <label for="banheiros">Banheiros</label>
+                                <input type="number" class="form-control" id="banheiros" name="banheiros" required value="{{ banheiros }}">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="cozinha">Cozinha</label>
+                                <input type="number" class="form-control" id="cozinha" name="cozinha" required  value="{{ cozinha }}">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="laboratorio">Laboratorio</label>
+                                <input type="number" class="form-control" id="laboratorio" name="laboratorio" required  value="{{ laboratorio }}">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="esporte">Esporte</label>
+                                <input type="number" class="form-control" id="esporte" name="esporte" required  value="{{ esporte }}">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="salas_de_aula">Salas De Aula</label>
+                                <input type="number" class="form-control" id="salas_de_aula" name="salas_de_aula" required  value="{{ salas_de_aula }}">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="leitura">Leitura</label>
+                                <input type="number" class="form-control" id="leitura" name="leitura" required  value="{{ leitura }}">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="outros">Outros</label>
+                                <input type="number" class="form-control" id="outros" name="outros" required  value="{{ outros }}">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="/random" class="btn btn-outline-secondary d-inline-flex align-items-center" type="button">
+                                <span style="margin-right: 8px;"> Valores aleatórios</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+                                        <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+                                    </svg>
+                                    </a>
+                            </div>
+                            <hr class="my-4">
+                            <button type="submit" class="btn btn-success mt-3">Enviar</button>
+                        </form>
+                    </div>
+
+- Inclusão de cabeçalho de nível 4 para a seção de infraestrutura;
+- Inclusão de formulário HTML com método POST que envia dados para a rota "/predict", estilizado como uma linha do Bootstrap;
+- Definição de que cada grupo de formulário ocupa 4 unidades de coluna em telas médias;
+- Definição de rótulo associado ao campo de entrada banheiros (isso se repete para os outros campos, por isso não será feito o detalhamento neste documentos dos demais, que são réplicas dessa mesma operação, porém, com nomes distintos);
+- Inclusão de campo de entrada para números com a classe "form-control" do Bootstrap. O valor inicial é definido por uma variável "Jinja2";
+- Inclusão de Link estilizado como botão que direciona para a rota "/random" para gerar valores aleatórios;
+- Inclusão de botão de envio com a classe "btn-success" do Bootstrap.
+
+#### Inclusão dos resultados em tela e links
+
+                    <div class="col-md-4 col-lg-3 order-md-first">
+                        <div class="card p-2">
+                            <div class="card-body">
+                            <p class="card-text">As classes das notas são formadas pelos seguintes intervalos de valores de notas:</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between"><small class="badge bg-success-subtle text-success-emphasis rounded-pill"> Classe E</small><small class="text-body-secondary">Notas entre <strong>0</strong> e <strong>1,61</strong></small></li>
+                            <li class="list-group-item d-flex justify-content-between"><small class="badge bg-success-subtle text-success-emphasis rounded-pill"> Classe D</small><small class="text-body-secondary">Notas entre <strong>1,62</strong> e <strong>3,22</strong></small></li>
+                            <li class="list-group-item d-flex justify-content-between" ><small class="badge bg-success-subtle text-success-emphasis rounded-pill"> Classe C</small><small class="text-body-secondary">Notas entre <strong>3,23</strong> e <strong>4,83</strong></small></li>
+                            <li class="list-group-item d-flex justify-content-between"><small class="badge bg-success-subtle text-success-emphasis rounded-pill"> Classe B</small><small class="text-body-secondary">Notas entre <strong>4,84</strong> e <strong>6,44</strong></small></li>
+                            <li class="list-group-item d-flex justify-content-between"><small class="badge bg-success-subtle text-success-emphasis rounded-pill"> Classe A</small><small class="text-body-secondary">Notas entre <strong>6,45</strong> e <strong>8.1</strong></small></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </body>
+    </html>
+
+- Listagem de itens com a classe "list-group-flush" do Bootstrap, para exibir itens sem bordas;
+- Inclusão de rótulo pequeno com a classe badge do Bootstrap para exibir etiquetas de classe de notas.
