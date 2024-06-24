@@ -1,6 +1,3 @@
-# Apresentação da Solução
-Vídeo com o escopo todo o projeto, um resumo do trabalho desenvolvido, comprovação de que a implantação foi realizada e conclusões alcançadas: [Apresentação da API.](https://youtu.be/5ecyhv273S4)
-
 # Implantação da solução
 Nessa seção, será apresentado como foi desenvolvida a seguinte Aplicação: [Influência da Infraestrutura escolar nas notas do IDESP-AF de escolas públicas do estado de São Paulo.](http://34.227.72.111/)
 
@@ -256,7 +253,7 @@ Os dados a seguir estão presentes no arquivos do Front-End do projeto, represen
 
 - Inicia corpo do documento HTML, onde o conteúdo visível da página fica;
 - Criação de um contêiner fluido com margens e preenchimento, utilizando a classe container do Bootstrap;
-- Insere um wlemento HTML5 que indica o conteúdo principal da página;
+- Insere um elemento HTML5 que indica o conteúdo principal da página;
 - Criação de uma seção com padding vertical "py-5", com alinhamento do texto ao centro (text-center);
 - Criação de um cabeçalho de nível 2 com o título da página, que é "Previsão da nota IDESP-AF da escola com base na infraestrutura";
 - Inclusão de classe lead do Bootstrap, que estiliza o texto como destaque;
@@ -402,3 +399,41 @@ Os dados a seguir estão presentes no arquivos do Front-End do projeto, represen
 
 - Listagem de itens com a classe "list-group-flush" do Bootstrap, para exibir itens sem bordas;
 - Inclusão de rótulo pequeno com a classe badge do Bootstrap para exibir etiquetas de classe de notas.
+
+  ## Implantação na Nuvem
+
+Para a implementação da aplicação, foram necessários diversos passos detalhados a seguir.
+
+### Configuração da Instância EC2
+
+- A aplicação foi implantada na Amazon EC2, utilizando uma instância virtual que proporciona a escalabilidade necessária;
+- Inicialmente, foi configurada uma instância EC2 adequada, selecionando um sistema operacional e os recursos necessários, como CPU e memória.
+
+### Instalação do Ambiente Python
+
+- Após a configuração da instância, foi instalado o Python, essencial para a execução do Flask, que é o framework principal da aplicação.
+
+### Instalação das Dependências do Projeto
+
+- Com o ambiente Python configurado, foram instaladas as dependências do projeto utilizando o gerenciador de pacotes pip. Isso incluiu o Flask e quaisquer outras bibliotecas necessárias definidas no arquivo requirements.txt.
+
+### Configuração do NGINX como Proxy Reverso:
+
+- Para gerenciar o tráfego HTTP externo, configuramos o NGINX como um proxy reverso. Isso permitiu que as requisições na porta 80 (porta padrão para HTTP) fossem redirecionadas para a aplicação Flask, que estava rodando localmente na porta 5000;
+- O arquivo de configuração do NGINX foi ajustado para mapear as requisições de entrada para a aplicação, garantindo que todos os caminhos fossem corretamente direcionados.
+
+### Verificação e Reinicialização do Serviço NGINX:
+
+- Após realizar as configurações necessárias, foi verificada a configuração do NGINX para garantir que não houvesse erros;
+- O serviço do NGINX foi reinicializado, para aplicar as novas configurações e assegurar que o proxy reverso estivesse operando conforme esperado.
+
+### Acessibilidade Pública e Gerenciamento de Tráfego:
+
+- Esses passos asseguraram que a aplicação Flask estivesse acessível publicamente. Utilizando a infraestrutura da Amazon EC2 em conjunto com o NGINX, conseguimos gerenciar o tráfego de entrada de forma eficiente e segura;
+- Adicionalmente, foram configuradas as regras de segurança no grupo de segurança da EC2 para permitir o tráfego, garantindo assim a segurança das conexões.
+
+Com todos esses passos implementados, a aplicação foi lançada, proporcionando um ambiente robusto e escalável para os usuários finais.
+
+# Apresentação da Solução
+Vídeo com o escopo todo o projeto, um resumo do trabalho desenvolvido, comprovação de que a implantação foi realizada e conclusões alcançadas: [Apresentação da API.](https://youtu.be/5ecyhv273S4)
+
