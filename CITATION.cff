@@ -1,29 +1,30 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Análise da Influência da Infraestrutura Escolar nas Notas do IDESP-AF de Escolas Públicas do Estado de São Paulo
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Bezerra dos Santos de Siqueira
+    given-names: Karina
+  - family-names: De Sá Almeida Costa Silva Figueredo
+    given-names: Letícia
+  - family-names: Rodrigues Andrade
+    given-names: Matheus
+  - family-names: Souza Sato
+    given-names: Michele
+  - family-names: Soutto Mayor Assumpção Pinheiro Alves
+    given-names: Rafael
+  - family-names: Bezerra dos Santos
+    given-names: Rafaela
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: De Nardin
+    given-names: Luciana
 keywords:
-  -
-  -
-repository-code:
+  - Infraestrutura Escolar;
+  - Notas do IDESP-AF;
+  - Influência;
+  - Escolas Públicas;
+  - Machine Learning.
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-infraeducacaospidesp
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2024-06-26
